@@ -1,0 +1,38 @@
+{
+  "source_name": "ਖੇਤੀਬਾੜੀ ਅਤੇ ਕਿਸਾਨ ਭਲਾਈ ਵਿਭਾਗ, ਪੰਜਾਬ ਅਤੇ ਭਾਰਤ ਸਰਕਾਰ",
+  "verified_portal": "punjab.gov.in / pmkisan.gov.in / agrimachinerypb.com",
+  "last_updated": "2026-11-20",
+  "last_updated_pa": "20 ਨਵੰਬਰ 2026",
+  "last_updated_hi": "20 नवंबर 2026",
+  "last_updated_hinglish": "20 November 2026",
+  "schemes": [
+    {
+      "id": "pm_kisan",
+      "name": "PM-Kisan Samman Nidhi",
+      "name_pa": "ਪ੍ਰਧਾਨ ਮੰਤਰੀ ਕਿਸਾਨ ਸਨਮਾਨ ਨਿਧੀ ਯੋਜਨਾ (PM-ਕਿਸਾਨ)",
+      "name_hi": "प्रधानमंत्री किसान सम्मान निधि योजना (PM-किसान)",
+      "name_hinglish": "Pradhan Mantri Kisan Samman Nidhi (PM-Kisan)",
+      "aliases": ["ਪੀਐਮ ਕਿਸਾਨ", "ਕਿਸਾਨ ਸਨਮਾਨ", "ਕਿਸ਼ਤ", "2000", "6000", "pm kisan", "kisht", "samman nidhi", "pmkisan"],
+      "benefit_amount": "₹6,000 ਪ੍ਰਤੀ ਸਾਲ (₹2,000 ਦੀਆਂ 3 ਬਰਾਬਰ ਕਿਸ਼ਤਾਂ)",
+      "benefit_amount_hi": "₹6,000 प्रति वर्ष (₹2,000 की 3 समान किस्तें)",
+      "benefit_amount_hinglish": "₹6,000 per year (₹2,000 ki 3 kistein)",
+      "speech_pa": "ਪੀਐਮ ਕਿਸਾਨ ਯੋਜਨਾ ਤਹਿਤ ਕਿਸਾਨਾਂ ਨੂੰ ਸਾਲਾਨਾ 6,000 ਰੁਪਏ ਤਿੰਨ ਕਿਸ਼ਤਾਂ ਵਿੱਚ ਮਿਲਦੇ ਹਨ। ਕਿਸ਼ਤ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਬੈਂਕ ਖਾਤੇ ਦੀ ਈ-ਕੇਵਾਈਸੀ ਅਤੇ ਜ਼ਮੀਨ ਦੀ ਸੀਡਿੰਗ ਹੋਣੀ ਜ਼ਰੂਰੀ ਹੈ। ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ ਟੋਲ ਫ੍ਰੀ ਨੰਬਰ 155261 'ਤੇ ਸੰਪਰਕ ਕਰੋ।",
+      "speech_hi": "पीएम किसान योजना के तहत किसानों को हर साल 6,000 रुपये 2,000 की तीन किस्तों में मिलते हैं। अगली किस्त पाने के लिए ई-केवाईसी और लैंड सीडिंग जरूरी है। हेल्पलाइन नंबर 155261 है।",
+      "speech_hinglish": "PM Kisan scheme ke tehat farmers ko saal mein 6,000 rupaye 2,000 ki 3 kishton mein milte hain. Kist paane ke liye e-KYC aur land seeding compulsory hai. Helpline: 155261."
+    },
+    {
+      "id": "crop_residue_crm",
+      "name": "Punjab Crop Residue Management (CRM) Machinery Subsidy",
+      "name_pa": "ਪਰਾਲੀ ਪ੍ਰਬੰਧਨ ਖੇਤੀ ਮਸ਼ੀਨਰੀ ਸਬਸਿਡੀ (CRM ਸਕੀਮ)",
+      "name_hi": "पराली प्रबंधन कृषि यंत्र सब्सिडी योजना",
+      "name_hinglish": "Parali Prabandhan CRM Machinery Subsidy",
+      "aliases": ["ਪਰਾਲੀ", "ਸੁਪਰ ਸੀਡਰ", "ਹੈਪੀ ਸੀਡਰ", "ਮਸ਼ੀਨਰੀ", "ਸਬਸਿਡੀ", "parali", "super seeder", "happy seeder", "subsidy", "crm"],
+      "benefit_amount": "ਵਿਅਕਤੀਗਤ ਕਿਸਾਨਾਂ ਨੂੰ 50% ਅਤੇ ਕਿਸਾਨ ਗਰੁੱਪਾਂ/ਸਭਾਵਾਂ ਨੂੰ 80% ਸਬਸਿਡੀ",
+      "benefit_amount_hi": "व्यक्तिगत किसानों को 50% और किसान समूहों को 80% सब्सिडी",
+      "benefit_amount_hinglish": "Farmers ko 50% aur societies ko 80% subsidy",
+      "speech_pa": "ਪੰਜਾਬ ਵਿੱਚ ਪਰਾਲੀ ਪ੍ਰਬੰਧਨ ਮਸ਼ੀਨਾਂ ਜਿਵੇਂ ਸੁਪਰ ਸੀਡਰ ਅਤੇ ਸਮਾਰਟ ਸੀਡਰ 'ਤੇ ਵਿਅਕਤੀਗਤ ਕਿਸਾਨ ਨੂੰ 50 ਪ੍ਰਤੀਸ਼ਤ ਅਤੇ ਕਿਸਾਨ ਸਭਾਵਾਂ ਨੂੰ 80 ਪ੍ਰਤੀਸ਼ਤ ਸਬਸਿਡੀ ਮਿਲਦੀ ਹੈ। ਅਰਜ਼ੀ agrimachinerypb.com 'ਤੇ ਦਿੱਤੀ ਜਾ ਸਕਦੀ ਹੈ।",
+      "speech_hi": "पंजाब में पराली प्रबंधन मशीनों जैसे सुपर सीडर और स्मार्ट सीडर पर व्यक्तिगत किसान को 50 प्रतिशत और किसान समितियों को 80 प्रतिशत सब्सिडी मिलती है। आवेदन agrimachinerypb.com पर करें।",
+      "speech_hinglish": "Punjab mein Super Seeder aur Smart Seeder jaise agricultural machinery par 50 se 80 percent subsidy milti hai. Apply online at agrimachinerypb.com."
+    }
+  ]
+}

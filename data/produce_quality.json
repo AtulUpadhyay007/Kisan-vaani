@@ -1,0 +1,295 @@
+{
+  "source_name": "ਪੰਜਾਬ ਰਾਜ ਖੇਤੀਬਾੜੀ ਮੰਡੀਕਰਨ ਬੋਰਡ (Punjab Mandi Board) & AGMARK ਗ੍ਰੇਡਿੰਗ ਮਾਪਦੰਡ",
+  "last_updated": "2026-11-20",
+  "district": "Amritsar (Vallah, Majitha, Jandiala, Rayya, Ajnala Mandis)",
+  "produce": [
+    {
+      "id": "potato",
+      "name_pa": "ਆਲੂ (Potato - Pukhraj / Jyoti)",
+      "name_hi": "आलू (Potato)",
+      "name_hinglish": "Potato / Naya Aalu",
+      "grades": [
+        {
+          "topic": "size",
+          "topic_name_pa": "ਅਕਾਰ ਤੇ ਗ੍ਰੇਡਿੰਗ (Size Standards)",
+          "topic_name_hi": "आकार और ग्रेड (Size Standards)",
+          "topic_name_hinglish": "Size Standards",
+          "details_pa": "ਗ੍ਰੇਡ 'ਏ' (ਵੱਡਾ ਟੇਬਲ ਆਲੂ): ਵਿਆਸ 45 ਮਿਲੀਮੀਟਰ ਤੋਂ ਵੱਧ (ਸਭ ਤੋਂ ਵੱਧ ਮੰਡੀ ਭਾਅ)। ਗ੍ਰੇਡ 'ਬੀ' (ਮੱਧਮ ਬੀਜ ਅਕਾਰ): 30 ਤੋਂ 45 ਮਿਲੀਮੀਟਰ। ਛੋਟਾ (ਛੱਟਾ): 30 ਮਿਲੀਮੀਟਰ ਤੋਂ ਘੱਟ (ਘੱਟ ਰੇਟ)।",
+          "details_hi": "ग्रेड 'ए' (टेबल आलू): 45 मिमी से अधिक व्यास (सर्वोच्च मंडी मूल्य)। ग्रेड 'बी' (मध्यम/बीज): 30 से 45 मिमी। छोटा (छट्टा): 30 मिमी से कम।",
+          "details_hinglish": "Grade A (>45mm diameter - highest mandi rate), Grade B (30-45mm seed size), Chatta (<30mm discount rate).",
+          "metric": "Grade A: >45mm | Grade B: 30-45mm | Small: <30mm"
+        },
+        {
+          "topic": "appearance",
+          "topic_name_pa": "ਦਿੱਖ ਤੇ ਰੰਗ-ਰੂਪ (Appearance)",
+          "topic_name_hi": "दिखावट व छिलका (Appearance)",
+          "topic_name_hinglish": "Appearance & Peel",
+          "details_pa": "ਛਿਲਕਾ ਸਾਫ਼ ਅਤੇ ਚਮਕਦਾਰ ਹੋਵੇ। ਧੁੱਪ ਨਾਲ ਹਰਾ ਹੋਇਆ ਆਲੂ 2% ਤੋਂ ਘੱਟ ਹੋਵੇ। ਚਿੱਕੜ ਜਾਂ ਮਿੱਟੀ ਦੀ ਮਾਤਰਾ 2% ਤੋਂ ਵੱਧ ਨਾ ਹੋਵੇ। ਕੱਟੇ-ਵੱਢੇ ਆਲੂ ਵੱਖ ਕੀਤੇ ਜਾਣ।",
+          "details_hi": "छिलका साफ और चमकीला हो। धूप से हरा पड़ा आलू 2% से कम होना चाहिए। मिट्टी की परत 2% से अधिक न हो।",
+          "details_hinglish": "Clean peel, green sun-exposed skin must be <2%, mud clump <2%, cut tubers sorted out.",
+          "metric": "Greening: <2% max | Soil tare: <2% max"
+        },
+        {
+          "topic": "freshness",
+          "topic_name_pa": "ਤਾਜ਼ਗੀ ਤੇ ਸਖ਼ਤੀ (Freshness)",
+          "topic_name_hi": "ताजगी व कड़ापन (Freshness)",
+          "topic_name_hinglish": "Freshness & Firmness",
+          "details_pa": "ਕੰਦ ਬਿਲਕੁਲ ਸਖ਼ਤ (firm) ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ, ਪਿਲਪਿਲੇ ਜਾਂ ਝੁਰੜੀਆਂ ਵਾਲੇ ਨਾ ਹੋਣ। ਅੱਖਾਂ ਵਿੱਚੋਂ ਪੁੰਗਰ (sprouting) ਨਾ ਨਿਕਲੀ ਹੋਵੇ।",
+          "details_hi": "कंद पूरी तरह सख्त हों, झुर्रीदार या पिलपिले न हों। अंकुरण (sprouting) न निकला हो।",
+          "details_hinglish": "Firm solid tubers without shrinkage, wrinkling or sprouting eyes.",
+          "metric": "Sprouting: 0% | Firmness: High"
+        },
+        {
+          "topic": "storage",
+          "topic_name_pa": "ਸੰਭਾਲ ਤੇ ਕੋਲਡ ਸਟੋਰ (Storage)",
+          "topic_name_hi": "भंडारण व कोल्ड स्टोर (Storage)",
+          "topic_name_hinglish": "Storage & Cold Store",
+          "details_pa": "ਥੋੜ੍ਹੇ ਸਮੇਂ ਲਈ ਹਵਾਦਾਰ ਠੰਢੀ ਛਾਂ (12-15°C) ਵਿੱਚ ਰੱਖੋ। ਲੰਬੇ ਸਮੇਂ ਲਈ ਕੋਲਡ ਸਟੋਰ ਵਿੱਚ 2°C ਤੋਂ 4°C ਤਾਪਮਾਨ ਅਤੇ 90-95% ਨਮੀ 'ਤੇ ਸੀ.ਆਈ.ਪੀ.ਸੀ. (CIPC) ਧੂਣੀ ਨਾਲ ਸਟੋਰ ਕਰੋ।",
+          "details_hi": "अस्थायी भंडारण ठंडी हवादार छाया (12-15°C) में करें। कोल्ड स्टोर में 2°C से 4°C तापमान और 90% नमी पर रखें।",
+          "details_hinglish": "Short term: ventilated shade (12-15°C). Cold storage: 2-4°C with 90-95% humidity.",
+          "metric": "Temp: 2-4°C (Cold store) | RH: 90-95%"
+        }
+      ]
+    },
+    {
+      "id": "basmati",
+      "name_pa": "ਬਾਸਮਤੀ 1121 (Basmati Paddy)",
+      "name_hi": "बासमती 1121 (Basmati)",
+      "name_hinglish": "Basmati 1121 Paddy",
+      "grades": [
+        {
+          "topic": "size",
+          "topic_name_pa": "ਅਕਾਰ ਤੇ ਦਾਣੇ ਦੀ ਲੰਬਾਈ (Grain Length)",
+          "topic_name_hi": "दाने की लंबाई (Grain Length)",
+          "topic_name_hinglish": "Grain Length",
+          "details_pa": "ਕੱਚੇ ਦਾਣੇ ਦੀ ਔਸਤ ਲੰਬਾਈ (AGL) ਘੱਟੋ-ਘੱਟ 8.35 ਮਿਲੀਮੀਟਰ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ। ਪੱਕਣ 'ਤੇ ਲੰਬਾਈ ਦੁੱਗਣੀ (2.0 ਗੁਣਾ ਤੋਂ ਵੱਧ) ਹੋ ਜਾਂਦੀ ਹੈ।",
+          "details_hi": "कच्चे दाने की औसत लंबाई (AGL) न्यूनतम 8.35 मिमी होनी चाहिए। पकाने पर लंबाई 2 गुना से अधिक बढ़ती है।",
+          "details_hinglish": "Average Grain Length (AGL) minimum 8.35 mm uncooked, elongation ratio >2.0x.",
+          "metric": "Min Length: 8.35 mm | Elongation: >2.0x"
+        },
+        {
+          "topic": "appearance",
+          "topic_name_pa": "ਦਿੱਖ ਤੇ ਚਮਕ (Appearance & Color)",
+          "topic_name_hi": "रंग-रूप व सफेदी (Appearance)",
+          "topic_name_hinglish": "Appearance & Purity",
+          "details_pa": "ਸੁਨਹਿਰੀ ਛਿਲਕਾ ਅਤੇ ਪਾਰਦਰਸ਼ੀ ਦਾਣਾ। ਚਿੱਟੇ ਦਾਣੇ (chalky grains) 2% ਤੋਂ ਘੱਟ ਹੋਣ। ਮਿਲਾਵਟ ਰਹਿਤ ਇੱਕੋ ਜਿਹਾ ਦਾਣਾ।",
+          "details_hi": "सुनहरा छिलका और पारदर्शी दाना। चाक जैसे सफेद दाने (chalky) 2% से कम होने चाहिए।",
+          "details_hinglish": "Golden husk, translucent pearl grain, chalky grains strictly <2%.",
+          "metric": "Chalkiness: <2% | Purity: >98%"
+        },
+        {
+          "topic": "freshness",
+          "topic_name_pa": "ਨਮੀ ਤੇ ਤਾਜ਼ਗੀ (Moisture Content)",
+          "topic_name_hi": "नमी व ताजगी (Moisture)",
+          "topic_name_hinglish": "Moisture & Freshness",
+          "details_pa": "ਮੰਡੀ ਲਿਆਉਣ ਵੇਲੇ ਵੱਧ ਤੋਂ ਵੱਧ ਨਮੀ 17% ਤੱਕ ਪ੍ਰਵਾਨ ਹੈ। 14% ਤੋਂ ਘੱਟ ਨਮੀ ਹੋਣ 'ਤੇ ਮੰਡੀ ਵਿੱਚ ਬੋਲੀ ਦਾ ਸਭ ਤੋਂ ਵੱਧ ਰੇਟ ਮਿਲਦਾ ਹੈ।",
+          "details_hi": "मंडी आवक पर अधिकतम नमी 17% स्वीकार्य है। 14% से कम नमी पर उच्चतम बोली मिलती है।",
+          "details_hinglish": "Mandi arrival max moisture 17%. Below 14% fetches peak auction bidding rate.",
+          "metric": "Arrival Max: 17% | Peak Grade: <14%"
+        },
+        {
+          "topic": "storage",
+          "topic_name_pa": "ਸੰਭਾਲ ਤੇ ਗੁਦਾਮ (Safe Storage)",
+          "topic_name_hi": "भंडारण व गोदाम (Storage)",
+          "topic_name_hinglish": "Storage Requirements",
+          "details_pa": "ਗੁਦਾਮ ਜਾਂ ਬੋਰੀਆਂ ਵਿੱਚ ਸਟੋਰ ਕਰਨ ਲਈ ਨਮੀ 12% ਤੋਂ 13% ਦੇ ਵਿਚਕਾਰ ਹੋਵੇ। ਲੱਕੜ ਦੇ ਤਖ਼ਤਿਆਂ (wooden crates) 'ਤੇ ਬੋਰੀਆਂ ਲਗਾਓ ਤਾਂ ਜੋ ਹੇਠਾਂ ਸਿੱਲ੍ਹ ਨਾ ਲੱਗੇ।",
+          "details_hi": "भंडारण के लिए दानों में नमी 12-13% होनी चाहिए। बोरियों को लकड़ी के तख्तों पर रखें।",
+          "details_hinglish": "Bag storage moisture must be 12-13% on wooden pallets away from damp floors.",
+          "metric": "Safe Moisture: <13% | Wooden Crates"
+        }
+      ]
+    },
+    {
+      "id": "kinnow",
+      "name_pa": "ਕਿੰਨੂ ਫ਼ਲ (Kinnow Mandarin)",
+      "name_hi": "किन्नू फल (Kinnow)",
+      "name_hinglish": "Kinnow Fruit",
+      "grades": [
+        {
+          "topic": "size",
+          "topic_name_pa": "ਅਕਾਰ ਤੇ ਡਾਇਆਮੀਟਰ (Fruit Size)",
+          "topic_name_hi": "आकार व व्यास (Size)",
+          "topic_name_hinglish": "Fruit Size Grading",
+          "details_pa": "ਸੁਪਰ ਏ ਗ੍ਰੇਡ: ਵਿਆਸ 75-85 ਮਿਲੀਮੀਟਰ (ਕਾਊਂਟ 54-60 ਫ਼ਲ ਪ੍ਰਤੀ ਡੱਬਾ)। ਏ ਗ੍ਰੇਡ: 65-75 ਮਿਲੀਮੀਟਰ (ਕਾਊਂਟ 72-84)। ਛੋਟਾ ਕਿੰਨੂ: 55-65 ਮਿਲੀਮੀਟਰ।",
+          "details_hi": "सुपर ए ग्रेड: 75-85 मिमी व्यास। ए ग्रेड: 65-75 मिमी। छोटा किन्नू: 55-65 मिमी व्यास।",
+          "details_hinglish": "Super A: 75-85 mm (54-60 count box). Grade A: 65-75 mm. Small: 55-65 mm.",
+          "metric": "Super A: 75-85mm | Grade A: 65-75mm"
+        },
+        {
+          "topic": "appearance",
+          "topic_name_pa": "ਰੰਗ ਤੇ ਛਿਲਕੇ ਦੀ ਚਮਕ (Color & Peel)",
+          "topic_name_hi": "रंग व छिलका (Color & Peel)",
+          "topic_name_hinglish": "Color & Rind",
+          "details_pa": "ਪੂਰਾ ਸੰਤਰੀ-ਕੇਸਰੀ ਰੰਗ (100% orange peel color)। ਦਾਗ਼, ਧੱਬੇ ਜਾਂ ਕੀੜਿਆਂ ਦੇ ਨਿਸ਼ਾਨ 5% ਤੋਂ ਘੱਟ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।",
+          "details_hi": "चमकीला नारंगी रंग। छिलके पर दाग-धब्बे 5% से कम होने चाहिए।",
+          "details_hinglish": "Uniform bright deep orange peel, blemish or scratch under 5% surface area.",
+          "metric": "Color: 100% Orange | Blemish: <5%"
+        },
+        {
+          "topic": "freshness",
+          "topic_name_pa": "ਰਸ ਤੇ ਮਿਠਾਸ (Juice & Sweetness TSS)",
+          "topic_name_hi": "रस की मात्रा व मिठास (Juice & TSS)",
+          "topic_name_hinglish": "Juice & Brix TSS",
+          "details_pa": "ਫ਼ਲ ਹੱਥ ਵਿੱਚ ਭਾਰਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ। ਰਸ ਦੀ ਮਾਤਰਾ 45% ਤੋਂ ਵੱਧ ਅਤੇ ਮਿਠਾਸ (TSS) ਘੱਟੋ-ਘੱਟ 10 ਡਿਗਰੀ ਬ੍ਰਿਕਸ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।",
+          "details_hi": "फल भारी और रसीला हो। रस 45% से अधिक और मिठास (TSS) न्यूनतम 10° Brix होनी चाहिए।",
+          "details_hinglish": "Juice content >45% by weight, sweetness TSS minimum 10° Brix.",
+          "metric": "Juice: >45% | TSS: ≥10° Brix"
+        },
+        {
+          "topic": "storage",
+          "topic_name_pa": "ਸੰਭਾਲ ਤੇ ਸ਼ੈਲਫ ਲਾਈਫ਼ (Shelf Life & Cold Storage)",
+          "topic_name_hi": "भंडारण व शेल्फ लाइफ (Storage)",
+          "topic_name_hinglish": "Shelf Life & Storage",
+          "details_pa": "ਸਾਧਾਰਨ ਕਮਰੇ ਦੇ ਤਾਪਮਾਨ 'ਤੇ 7 ਤੋਂ 10 ਦਿਨ। ਵੈਕਸਿੰਗ (Food-grade wax) ਕਰਕੇ 4°C ਤੋਂ 6°C ਅਤੇ 85-90% ਨਮੀ ਵਾਲੇ ਕੋਲਡ ਸਟੋਰ ਵਿੱਚ 60 ਦਿਨਾਂ ਤੱਕ ਸੁਰੱਖਿਅਤ ਰਹਿੰਦਾ ਹੈ।",
+          "details_hi": "कमरे के तापमान पर 7-10 दिन। 4°C से 6°C तापमान और 90% नमी पर 60 दिनों तक कोल्ड स्टोरेज में सुरक्षित।",
+          "details_hinglish": "Ambient: 7-10 days. Waxed at 4-6°C with 85-90% RH lasts up to 60 days.",
+          "metric": "Cold Store: 4-6°C | Shelf: 60 days"
+        }
+      ]
+    },
+    {
+      "id": "wheat",
+      "name_pa": "ਕਣਕ (Wheat - PBW 826 / DBW 303)",
+      "name_hi": "गेहूं (Wheat)",
+      "name_hinglish": "Kanak / Gehu",
+      "grades": [
+        {
+          "topic": "size",
+          "topic_name_pa": "ਦਾਣੇ ਦਾ ਵਜ਼ਨ ਤੇ ਆਕਾਰ (Test Weight)",
+          "topic_name_hi": "दाने का आकार व वजन (Test Weight)",
+          "topic_name_hinglish": "Grain Boldness & Weight",
+          "details_pa": "ਦਾਣੇ ਪੂਰੇ ਮੋਟੇ ਅਤੇ ਭਰੇ ਹੋਏ। ਹੈਕਟੋਲੀਟਰ ਟੈਸਟ ਵਜ਼ਨ 78 ਕਿਲੋ ਪ੍ਰਤੀ ਹੈਕਟੋਲੀਟਰ (kg/hL) ਤੋਂ ਵੱਧ ਹੋਵੇ। 1000 ਦਾਣਿਆਂ ਦਾ ਵਜ਼ਨ 40-44 ਗ੍ਰਾਮ।",
+          "details_hi": "मोटे और चमकदार दाने। टेस्ट वजन 78 किग्रा/हेक्टोलीटर से अधिक। 1000 दानों का वजन 40-44 ग्राम।",
+          "details_hinglish": "Bold amber grains, test weight >78 kg/hL, 1000-grain weight 40-44 grams.",
+          "metric": "Test Wt: >78 kg/hL | 1000-grain: 40-44g"
+        },
+        {
+          "topic": "appearance",
+          "topic_name_pa": "ਬਾਹਰੀ ਕੂੜਾ-ਕਰਕਟ ਤੇ ਦਾਗ਼ੀ ਦਾਣੇ (Foreign Matter)",
+          "topic_name_hi": "विदेशी कचरा व क्षतिग्रस्त दाने (Refractions)",
+          "topic_name_hinglish": "Foreign Matter & Damaged Grains",
+          "details_pa": "ਵਿਦੇਸ਼ੀ ਕੂੜਾ (ਧੂੜ-ਮਿੱਟੀ/ਤੂੜੀ) 0.75% ਤੋਂ ਘੱਟ। ਖ਼ਰਾਬ ਜਾਂ ਦਾਗ਼ੀ ਦਾਣੇ 2% ਤੋਂ ਘੱਟ ਅਤੇ ਸਿਉਂਕ/ਕੀੜੇ ਖਾਧੇ ਦਾਣੇ 1% ਤੋਂ ਘੱਟ ਹੋਣ।",
+          "details_hi": "कचरा-धूल 0.75% से कम, क्षतिग्रस्त दाने 2% से कम और कीड़े लगे दाने 1% से कम होने चाहिए।",
+          "details_hinglish": "Foreign matter <0.75%, damaged grains <2%, weeviled grains <1%.",
+          "metric": "Foreign Matter: <0.75% | Damaged: <2%"
+        },
+        {
+          "topic": "freshness",
+          "topic_name_pa": "ਸੁਗੰਧ ਤੇ ਗੁਣਵੱਤਾ (Luster & Odour)",
+          "topic_name_hi": "ताजगी व प्राकृतिक चमक (Luster)",
+          "topic_name_hinglish": "Luster & Freshness",
+          "details_pa": "ਸੁਨਹਿਰੀ ਕੁਦਰਤੀ ਚਮਕ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ। ਕਿਸੇ ਕਿਸਮ ਦੀ ਉੱਲੀ ਜਾਂ ਸਿੱਲ੍ਹ ਦੀ ਬਦਬੂ (musty smell) ਬਿਲਕੁਲ ਨਹੀਂ ਹੋਣੀ ਚਾਹੀਦੀ।",
+          "details_hi": "प्राकृतिक सुनहरी चमक हो। किसी भी प्रकार की फफूंद या बदबू नहीं होनी चाहिए।",
+          "details_hinglish": "Natural golden luster, free from musty smell, webbing, or damp odor.",
+          "metric": "Musty Odour: 0% | Luster: Natural"
+        },
+        {
+          "topic": "storage",
+          "topic_name_pa": "ਸੁਰੱਖਿਅਤ ਸਟੋਰੇਜ ਨਮੀ (Moisture & Silo)",
+          "topic_name_hi": "सुरक्षित भंडारण नमी (Storage Moisture)",
+          "topic_name_hinglish": "Safe Storage Moisture",
+          "details_pa": "ਲੰਬੇ ਸਮੇਂ ਦੇ ਸਟਾਕ ਲਈ ਨਮੀ 12% ਤੋਂ ਘੱਟ ਹੋਣੀ ਲਾਜ਼ਮੀ ਹੈ। ਲੋਹੇ ਦੇ ਢੋਲ ਜਾਂ ਸੀਲਬੰਦ ਸਾਈਲੋ ਵਿੱਚ ਐਲੂਮੀਨੀਅਮ ਫਾਸਫਾਈਡ ਦੀ ਗੋਲੀ ਰੱਖ ਕੇ ਹਵਾ-ਬੰਦ ਸਟੋਰ ਕਰੋ।",
+          "details_hi": "लंबे समय के भंडारण के लिए नमी 12% से कम होनी चाहिए। वायुरोधी टंकियों में सुरक्षित रखें।",
+          "details_hinglish": "Moisture strictly <12% for safe bin or silo storage without insect infestation.",
+          "metric": "Moisture: <12% strictly"
+        }
+      ]
+    },
+    {
+      "id": "green_peas",
+      "name_pa": "ਹਰੇ ਮਟਰ (Green Peas)",
+      "name_hi": "हरी मटर (Green Peas)",
+      "name_hinglish": "Hare Matar",
+      "grades": [
+        {
+          "topic": "size",
+          "topic_name_pa": "ਫਲੀ ਦਾ ਅਕਾਰ ਤੇ ਦਾਣੇ (Pod Size)",
+          "topic_name_hi": "फली का आकार (Pod Size)",
+          "topic_name_hinglish": "Pod Size & Count",
+          "details_pa": "ਹਰ ਫਲੀ ਵਿੱਚ 6 ਤੋਂ 8 ਪੂਰੇ ਭਰੇ, ਇੱਕਸਾਰ ਅਤੇ ਕੋਮਲ ਦਾਣੇ ਹੋਣ। ਅਧੂਰੀਆਂ ਖ਼ਾਲੀ ਫਲੀਆਂ ਵੱਖ ਕੀਤੀਆਂ ਜਾਣ।",
+          "details_hi": "प्रत्येक फली में 6 से 8 सुडौल, भरे हुए और मीठे दाने होने चाहिए।",
+          "details_hinglish": "6 to 8 uniform plump tender sweet grains per pod.",
+          "metric": "Grains/Pod: 6-8 uniform"
+        },
+        {
+          "topic": "appearance",
+          "topic_name_pa": "ਫਲੀ ਦਾ ਰੰਗ (Pod Color)",
+          "topic_name_hi": "फली का रंग (Color)",
+          "topic_name_hinglish": "Pod Color & Skin",
+          "details_pa": "ਤਾਜ਼ਾ ਗੂੜ੍ਹਾ ਹਰਾ ਰੰਗ। ਪੀਲੀਆਂ ਪੈ ਚੁੱਕੀਆਂ ਜਾਂ ਧੁੱਪ ਨਾਲ ਸੁੱਕੀਆਂ ਫਲੀਆਂ 2% ਤੋਂ ਘੱਟ ਹੋਣ।",
+          "details_hi": "चमकीला हरा रंग। पीली या सूखी फलियां 2% से कम होनी चाहिए।",
+          "details_hinglish": "Deep fresh green color, yellowing pods <2%.",
+          "metric": "Color: Deep Green | Yellowing: <2%"
+        },
+        {
+          "topic": "freshness",
+          "topic_name_pa": "ਕੜਕਣ ਤੇ ਮਿਠਾਸ (Snap & Tenderness)",
+          "topic_name_hi": "ताजगी व मिठास (Freshness)",
+          "topic_name_hinglish": "Crisp Snap & Sweetness",
+          "details_pa": "ਫਲੀ ਤੋੜਨ 'ਤੇ ਕਰਚ-ਕਰਚ (crisp snap) ਦੀ ਆਵਾਜ਼ ਆਵੇ। ਦਾਣੇ ਮਿੱਠੇ ਤੇ ਨਰਮ ਹੋਣ, ਸਟਾਰਚੀ ਜਾਂ ਕੱਚੇ ਸਖ਼ਤ ਨਾ ਹੋਣ।",
+          "details_hi": "फली तोड़ने पर चटकने की आवाज आए। दाने मीठे और मुलायम हों।",
+          "details_hinglish": "Crisp snapping sound when broken, sweet tender taste.",
+          "metric": "Crispness: High | Sugar: Natural"
+        },
+        {
+          "topic": "storage",
+          "topic_name_pa": "ਸੰਭਾਲ ਤੇ ਸ਼ੈਲਫ ਲਾਈਫ਼ (Shelf Life)",
+          "topic_name_hi": "भंडारण व शेल्फ लाइफ (Storage)",
+          "topic_name_hinglish": "Shelf Life & Cooling",
+          "details_pa": "ਸਧਾਰਨ ਹਵਾ ਵਿੱਚ 2-3 ਦਿਨ। 0°C ਤੋਂ 2°C ਤਾਪਮਾਨ ਅਤੇ 95% ਨਮੀ 'ਤੇ ਕੋਲਡ ਸਟੋਰ ਵਿੱਚ 2 ਤੋਂ 3 ਹਫ਼ਤੇ ਤਾਜ਼ਾ ਰਹਿੰਦੇ ਹਨ।",
+          "details_hi": "सामान्य तापमान पर 2-3 दिन। 0°C से 2°C पर 2-3 सप्ताह सुरक्षित।",
+          "details_hinglish": "Ambient: 2-3 days. Cold storage: 0-2°C with 95% RH for 2-3 weeks.",
+          "metric": "Cold Storage: 0-2°C | RH: 95%"
+        }
+      ]
+    },
+    {
+      "id": "tomato",
+      "name_pa": "ਟਮਾਟਰ (Fresh Tomato)",
+      "name_hi": "टमाटर (Fresh Tomato)",
+      "name_hinglish": "Tamatar / Tomato",
+      "grades": [
+        {
+          "topic": "size",
+          "topic_name_pa": "ਅਕਾਰ ਤੇ ਡਾਇਆਮੀਟਰ (Fruit Diameter)",
+          "topic_name_hi": "आकार व व्यास (Diameter)",
+          "topic_name_hinglish": "Diameter Size",
+          "details_pa": "ਮੀਡੀਅਮ ਤੋਂ ਲਾਰਜ: ਵਿਆਸ 50 ਤੋਂ 70 ਮਿਲੀਮੀਟਰ (ਸਭ ਤੋਂ ਵੱਧ ਵਿਕਣ ਵਾਲਾ ਗ੍ਰੇਡ)। ਗੋਲ ਜਾਂ ਅੰਡਾਕਾਰ ਇੱਕਸਾਰ ਸ਼ਕਲ।",
+          "details_hi": "मध्यम से बड़ा: 50 से 70 मिमी व्यास (सर्वोत्तम मंडी मांग)। गोल या अंडाकार।",
+          "details_hinglish": "Medium-large: 50-70mm diameter uniform round or oval shape.",
+          "metric": "Diameter: 50-70 mm uniform"
+        },
+        {
+          "topic": "appearance",
+          "topic_name_pa": "ਦਿੱਖ ਤੇ ਚਮੜੀ (Skin & Cracks)",
+          "topic_name_hi": "छिलका व दरारें (Skin & Cracks)",
+          "topic_name_hinglish": "Skin Smoothness & Flaws",
+          "details_pa": "ਛਿਲਕਾ ਚਮਕਦਾਰ, ਨਰਮ ਧੱਬਿਆਂ ਰਹਿਤ ਅਤੇ ਬਿਨਾਂ ਪਾਟਣ (crack-free)। ਹਰੀ ਡੰਡੀ (calyx) ਨਾਲ ਹੋਵੇ ਤਾਂ ਜ਼ਿਆਦਾ ਭਾਅ ਮਿਲਦਾ ਹੈ।",
+          "details_hi": "चमकदार छिलका, बिना दरारों का। हरी डंडी (कैलिक्स) साथ हो तो बेहतर भाव मिलता है।",
+          "details_hinglish": "Glossy peel, free from growth cracks, green calyx attached preferred.",
+          "metric": "Cracking: 0% | Calyx: Intact"
+        },
+        {
+          "topic": "freshness",
+          "topic_name_pa": "ਪੱਕਣ ਦਾ ਪੜਾਅ (Ripening Stage)",
+          "topic_name_hi": "पकाव स्तर (Ripening Stage)",
+          "topic_name_hinglish": "Breaker vs Ripe Stage",
+          "details_pa": "ਮੰਡੀ ਟਰਾਂਸਪੋਰਟ ਲਈ: ਬਰੇਕਰ ਸਟੇਜ (ਹਲਕਾ ਗੁਲਾਬੀ ਰੰਗ, ਸਖ਼ਤ)। ਸਥਾਨਕ ਵਿਕਰੀ ਲਈ: ਪੂਰਾ ਲਾਲ ਸਖ਼ਤ (firm ripe)। ਪਿਲਪਿਲਾ ਟਮਾਟਰ ਰੱਦ ਹੁੰਦਾ ਹੈ।",
+          "details_hi": "दूर भेजने हेतु: ब्रेकर स्टेज (हल्का गुलाबी, ठोस)। स्थानीय बिक्री हेतु: पूर्ण लाल ठोस। पिलपिला न हो।",
+          "details_hinglish": "Transit: Breaker stage (pink firm). Local sale: Full red firm (not mushy).",
+          "metric": "Firmness: Firm (not soft/mushy)"
+        },
+        {
+          "topic": "storage",
+          "topic_name_pa": "ਸੰਭਾਲ ਤਾਪਮਾਨ (Storage Temperature)",
+          "topic_name_hi": "भंडारण तापमान (Storage Temp)",
+          "topic_name_hinglish": "Storage Temperature Warning",
+          "details_pa": "ਕਦੇ ਵੀ 10°C ਤੋਂ ਠੰਢੇ ਫਰਿੱਜ ਵਿੱਚ ਨਾ ਰੱਖੋ (ਠੰਢ ਨਾਲ ਸਵਾਦ ਖ਼ਰਾਬ ਹੁੰਦਾ ਹੈ)। ਬਰੇਕਰ ਸਟੇਜ 12-15°C 'ਤੇ ਅਤੇ ਪੱਕੇ ਟਮਾਟਰ 10°C 'ਤੇ 10 ਦਿਨ ਤੱਕ ਰੱਖੋ।",
+          "details_hi": "10°C से नीचे न रखें (स्वाद और रंग खराब होता है)। 12°C से 15°C पर 7-10 दिन सुरक्षित।",
+          "details_hinglish": "Never store below 10°C (causes chilling injury). Store at 12-15°C for 7-10 days.",
+          "metric": "Safe Temp: 12-15°C (Never <10°C)"
+        }
+      ]
+    }
+  ]
+}

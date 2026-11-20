@@ -1,0 +1,121 @@
+{
+  "location": "Amritsar, Punjab",
+  "location_pa": "ਅੰਮ੍ਰਿਤਸਰ (ਪੰਜਾਬ)",
+  "location_hi": "अमृतसर (पंजाब)",
+  "location_hinglish": "Amritsar (Punjab)",
+  "station": "Agromet Advisory Centre, KVK Amritsar & IMD Airport Station",
+  "source_name": "ਭਾਰਤੀ ਮੌਸਮ ਵਿਗਿਆਨ ਵਿਭਾਗ (IMD) / OpenWeather Live API",
+  "provider": "OpenWeather API (Live Real-Time)",
+  "last_updated": "2026-11-21 02:53 AM",
+  "last_updated_pa": "21 ਨਵੰਬਰ 2026, 02:53 AM",
+  "last_updated_hi": "21 नवंबर 2026, 02:53 AM",
+  "last_updated_hinglish": "21 November 2026, 02:53 AM",
+  "current": {
+    "temperature_c": 14,
+    "temp_exact": 13.97,
+    "temp_min_c": 12,
+    "temp_max_c": 24,
+    "condition": "ਸਵੇਰ ਦੀ ਧੁੰਦ ਤੇ ਕੋਹਰਾ (Mist / Foggy morning)",
+    "condition_pa": "ਸਵੇਰ ਦੀ ਧੁੰਦ ਤੇ ਕੋਹਰਾ",
+    "condition_hi": "सुबह की धुंध व कोहरा",
+    "condition_hinglish": "Mist / Foggy morning",
+    "rain_probability_percent": 0,
+    "rain_probability_pct": 0,
+    "rainfall_expected_mm": 0.0,
+    "humidity_percent": 82,
+    "wind_speed_kmh": 5.5,
+    "wind_direction": "ਪੂਰਬ (E)",
+    "air_quality_index": 165
+  },
+  "alerts": {
+    "rain": {
+      "level": "NONE",
+      "level_pa": "ਮੀਂਹ ਦੀ ਸੰਭਾਵਨਾ 0%",
+      "level_hi": "बारिश की संभावना 0%",
+      "level_hinglish": "Barish chance 0%",
+      "chance": "0%",
+      "speech_pa": "ਅੰਮ੍ਰਿਤਸਰ ਵਿੱਚ ਅੱਜ ਮੀਂਹ ਦੀ ਸੰਭਾਵਨਾ 0% ਹੈ। ਮੌਸਮ ਖੁਸ਼ਕ ਰਹੇਗਾ।",
+      "speech_hi": "अमृतसर में आज बारिश की संभावना 0% है। मौसम शुष्क रहेगा।",
+      "speech_hinglish": "Amritsar mein aaj barish ka chance 0% hai. Mausam dry rahega."
+    },
+    "wind": {
+      "level": "CALM",
+      "level_pa": "ਹਵਾ ਦੀ ਰਫ਼ਤਾਰ 5.5 ਕਿਲੋਮੀਟਰ/ਘੰਟਾ",
+      "level_hi": "हवा 5.5 किमी/घंटा",
+      "level_hinglish": "Wind 5.5 km/h",
+      "speed": "5.5 km/h",
+      "speech_pa": "ਅੰਮ੍ਰਿਤਸਰ ਵਿੱਚ ਹਵਾ ਦੀ ਰਫ਼ਤਾਰ 5.5 ਕਿਲੋਮੀਟਰ ਪ੍ਰਤੀ ਘੰਟਾ ਹੈ।",
+      "speech_hi": "अमृतसर में हवा 5.5 किमी/घंटा चल रही है।",
+      "speech_hinglish": "Amritsar mein hawa 5.5 km/h hai."
+    },
+    "heat_frost": {
+      "level": "MILD_FROST_WARNING",
+      "level_pa": "ਸਵੇਰ ਵੇਲੇ ਹਲਕੀ ਧੁੰਦ ਤੇ ਠੰਢ",
+      "level_hi": "सुबह हल्का कोहरा व ठंड",
+      "level_hinglish": "Min Temp 12°C Warning",
+      "min_temp": "12°C",
+      "speech_pa": "ਸਵੇਰ ਵੇਲੇ ਹਲਕੀ ਧੁੰਦ ਪਵੇਗੀ ਅਤੇ ਘੱਟੋ-ਘੱਟ ਤਾਪਮਾਨ 12 ਡਿਗਰੀ ਰਹੇਗਾ। ਸਬਜ਼ੀਆਂ ਵਿੱਚ ਨਮੀ ਬਣਾਈ ਰੱਖੋ।",
+      "speech_hi": "सुबह हल्का कोहरा रहेगा और न्यूनतम तापमान 12 डिग्री रहेगा। सब्जियों में हल्की सिंचाई करें।",
+      "speech_hinglish": "Subah halka fog/mist rahega aur min temp 12°C rahega. Sabziyon mein nami banaye rakhein."
+    }
+  },
+  "spray_advisory": {
+    "status": "SAFE",
+    "status_pa": "ਸਪਰੇਅ ਲਈ ਅਨੁਕੂਲ ਸਮਾਂ (ਹਵਾ ਸ਼ਾਂਤ ਹੈ)",
+    "status_hi": "स्प्रे के लिए अनुकूल समय",
+    "status_hinglish": "Spray ke liye safe time",
+    "advisory_pa": "ਅੱਜ ਮੌਸਮ ਖੁਸ਼ਕ ਹੈ ਅਤੇ ਹਵਾ ਦੀ ਰਫ਼ਤਾਰ 5.5 ਕਿਲੋਮੀਟਰ ਪ੍ਰਤੀ ਘੰਟਾ ਹੈ। ਕਣਕ ਅਤੇ ਸਰ੍ਹੋਂ ਵਿੱਚ ਕੀਟਨਾਸ਼ਕ ਜਾਂ ਨਦੀਨਨਾਸ਼ਕ ਸਪਰੇਅ ਦੁਪਹਿਰ ਸਮੇਂ ਸੁਰੱਖਿਅਤ ਢੰਗ ਨਾਲ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ।",
+    "advisory_hi": "आज मौसम शुष्क है और हवा की गति 5.5 किमी/घंटा है। दोपहर में फसलों पर कीटनाशक स्प्रे सुरक्षित है।",
+    "advisory_hinglish": "Aaj mausam dry hai aur hawa 5.5 km/h hai. Spray afternoon mein safe tarike se karein."
+  },
+  "forecast_5_days": [
+    {
+      "date": "2026-11-21",
+      "temp_max": 14,
+      "temp_min": 13,
+      "rain_chance": "0%",
+      "weather_pa": "ਹਲਕੇ ਬੱਦਲ ਛਾਏ ਰਹਿਣਗੇ",
+      "weather_hi": "मौसम में हल्के बादल",
+      "weather_hinglish": "Partly cloudy"
+    },
+    {
+      "date": "2026-11-22",
+      "temp_max": 11,
+      "temp_min": 11,
+      "rain_chance": "0%",
+      "weather_pa": "ਮੌਸਮ ਸਾਫ਼ ਅਤੇ ਖੁਸ਼ਕ",
+      "weather_hi": "मौसम साफ और शुष्क",
+      "weather_hinglish": "Clear sky"
+    },
+    {
+      "date": "2026-11-23",
+      "temp_max": 14,
+      "temp_min": 14,
+      "rain_chance": "0%",
+      "weather_pa": "ਮੌਸਮ ਸਾਫ਼ ਅਤੇ ਖੁਸ਼ਕ",
+      "weather_hi": "मौसम साफ और शुष्क",
+      "weather_hinglish": "Clear sky"
+    },
+    {
+      "date": "2026-11-24",
+      "temp_max": 14,
+      "temp_min": 14,
+      "rain_chance": "0%",
+      "weather_pa": "ਮੌਸਮ ਸਾਫ਼ ਅਤੇ ਖੁਸ਼ਕ",
+      "weather_hi": "मौसम साफ और शुष्क",
+      "weather_hinglish": "Clear sky"
+    },
+    {
+      "date": "2026-11-25",
+      "temp_max": 14,
+      "temp_min": 14,
+      "rain_chance": "0%",
+      "weather_pa": "ਮੌਸਮ ਸਾਫ਼ ਅਤੇ ਖੁਸ਼ਕ",
+      "weather_hi": "मौसम साफ और शुष्क",
+      "weather_hinglish": "Clear sky"
+    }
+  ],
+  "speech_weather_pa": "ਅੰਮ੍ਰਿਤਸਰ ਵਿੱਚ ਇਸ ਵੇਲੇ ਲਾਈਵ ਤਾਪਮਾਨ 14 ਡਿਗਰੀ ਹੈ। ਦਿਨ ਦਾ ਵੱਧ ਤੋਂ ਵੱਧ ਤਾਪਮਾਨ 24 ਡਿਗਰੀ ਅਤੇ ਘੱਟ ਤੋਂ ਘੱਟ 12 ਡਿਗਰੀ ਰਹੇਗਾ। ਮੀਂਹ ਦੀ ਸੰਭਾਵਨਾ 0 ਪ੍ਰਤੀਸ਼ਤ ਹੈ। ਹਵਾ ਦੀ ਰਫ਼ਤਾਰ 5.5 ਕਿਲੋਮੀਟਰ ਹੈ ਅਤੇ ਫ਼ਸਲਾਂ 'ਤੇ ਸਪਰੇਅ ਕਰਨਾ ਸੁਰੱਖਿਅਤ ਹੈ।",
+  "speech_weather_hi": "अमृतसर में वर्तमान लाइव तापमान 14 डिग्री है। अधिकतम 24 डिग्री और न्यूनतम 12 डिग्री रहेगा। बारिश की संभावना 0 प्रतिशत है। हवा 5.5 किमी/घंटा चल रही है और स्प्रे करना सुरक्षित है।",
+  "speech_weather_hinglish": "Amritsar mein current live temperature 14°C hai. Max temp 24°C aur min temp 12°C rahega. Barish ka chance 0% hai aur hawa 5.5 km/h chal rahi hai. Spray karna safe hai."
+}

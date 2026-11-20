@@ -1,0 +1,37 @@
+{
+  "source_name": "ਪੰਜਾਬ ਖੇਤੀਬਾੜੀ ਯੂਨੀਵਰਸਿਟੀ (PAU ਲੁਧਿਆਣਾ) ਅਤੇ KVK ਅੰਮ੍ਰਿਤਸਰ",
+  "last_updated": "2026-11-20",
+  "last_updated_pa": "20 ਨਵੰਬਰ 2026",
+  "last_updated_hi": "20 नवंबर 2026",
+  "last_updated_hinglish": "20 November 2026",
+  "crops": [
+    {
+      "id": "wheat_advice",
+      "crop_name": "Wheat (ਕਣਕ)",
+      "crop_pa": "ਕਣਕ ਦੀ ਸੰਭਾਲ ਅਤੇ ਸਲਾਹ",
+      "crop_hi": "गेहूं फसल देखभाल और सलाह",
+      "crop_hinglish": "Gehu / Kanak Crop Care & Advice",
+      "aliases": ["ਕਣਕ ਦੀ ਸਲਾਹ", "ਕਣਕ ਬਿਮਾਰੀ", "ਗੁੱਲੀ ਡੰਡਾ", "ਨਦੀਨ", "ਕੋਰ ਪਾਣੀ", "wheat advice", "wheat care", "gehu advice"],
+      "primary_advisory_pa": "ਕਣਕ ਦੀ ਬਿਜਾਈ ਤੋਂ 21 ਦਿਨ ਬਾਅਦ ਪਹਿਲਾ ਪਾਣੀ (ਕੋਰ ਪਾਣੀ) ਲਗਾਓ। ਗੁੱਲੀ ਡੰਡੇ ਦੀ ਰੋਕਥਾਮ ਲਈ ਪਹਿਲੇ ਪਾਣੀ ਤੋਂ ਬਾਅਦ ਜਦੋਂ ਜ਼ਮੀਨ ਪੈਰ ਸਹਾਰਦੀ ਹੋਵੇ, ਤਦ ਸਿਫ਼ਾਰਸ਼ ਕੀਤੀ ਨਦੀਨਨਾਸ਼ਕ ਦਾ ਛਿੜਕਾਅ ਕਰੋ।",
+      "primary_advisory_hi": "गेहूं में बुवाई के 21 दिन बाद पहला पानी लगाएं। गुल्ली डंडा नियंत्रण के लिए पहले पानी के बाद सिफारिश खरपतवारनाशक का छिड़काव करें।",
+      "primary_advisory_hinglish": "Gehu ki buwai ke 21 din baad pehla kor paani lagayein. Gulli danda control ke liye pehle paani ke baad weedicide ka chhidkaav karein.",
+      "speech_pa": "ਕਣਕ ਦੀ ਫ਼ਸਲ ਲਈ ਮੁੱਖ ਸਲਾਹ: ਬਿਜਾਈ ਦੇ 21 ਦਿਨ ਬਾਅਦ ਪਹਿਲਾ ਕੋਰ ਪਾਣੀ ਲਗਾਓ ਅਤੇ ਅੱਧੀ ਬੋਰੀ ਯੂਰੀਆ ਪਾਓ। ਗੁੱਲੀ ਡੰਡੇ ਦੀ ਰੋਕਥਾਮ ਲਈ ਨਦੀਨਨਾਸ਼ਕ ਦਾ ਛਿੜਕਾਅ ਕਰੋ।",
+      "speech_hi": "गेहूं की मुख्य सलाह: बुवाई के 21 दिन बाद पहला पानी दें और आधा बैग यूरिया डालें। गुल्ली डंडा रोकथाम के लिए पहले पानी के बाद खरपतवारनाशक छिड़कें।",
+      "speech_hinglish": "Gehu ki mukhya salah: Buwai ke 21 din baad pehla kor paani dein aur aadhi bori urea daalein. Gulli danda rokne ke liye pehle paani ke baad weedicide spray karein."
+    },
+    {
+      "id": "potato_advice",
+      "crop_name": "Potato (ਆਲੂ)",
+      "crop_pa": "ਆਲੂ ਫ਼ਸਲ ਸੰਭਾਲ ਤੇ ਪਿਛੇਤਾ ਝੁਲਸਾ ਰੋਗ",
+      "crop_hi": "आलू फसल देखभाल व झुलसा रोग",
+      "crop_hinglish": "Aalu Late Blight Disease Care",
+      "aliases": ["ਆਲੂ ਸਲਾਹ", "ਝੁਲਸਾ ਰੋਗ", "ਪਿਛੇਤਾ ਝੁਲਸਾ", "ਆਲੂ ਬਿਮਾਰੀ", "potato blight", "potato care", "aalu rog"],
+      "primary_advisory_pa": "ਨਵੰਬਰ-ਦਸੰਬਰ ਵਿੱਚ ਧੁੰਦ ਅਤੇ ਨਮੀ ਕਾਰਨ ਆਲੂਆਂ ਵਿੱਚ ਪਿਛੇਤਾ ਝੁਲਸਾ ਰੋਗ (Late Blight) ਆਉਣ ਦਾ ਖ਼ਤਰਾ ਹੁੰਦਾ ਹੈ। ਬਚਾਅ ਵਜੋਂ ਇੰਡੋਫਿਲ ਐਮ-45 ਦਾ ਛਿੜਕਾਅ 7 ਦਿਨਾਂ ਦੇ ਵਕਫ਼ੇ 'ਤੇ ਕਰੋ।",
+      "primary_advisory_hi": "सर्दियों में आलू में पछेती झुलसा रोग से बचाव के लिए इंडोफिल M-45 का 7 दिनों के अंतराल पर छिड़काव करें।",
+      "primary_advisory_hinglish": "Sardiyo mein aalu mein late blight (jhulsa rog) se bachav ke liye Indofil M-45 ka 7 din ke gap par chhidkaav karein.",
+      "speech_pa": "ਆਲੂਆਂ ਦੀ ਫ਼ਸਲ ਲਈ ਅਹਿਮ ਚਿਤਾਵਨੀ: ਧੁੰਦ ਕਾਰਨ ਪਿਛੇਤਾ ਝੁਲਸਾ ਰੋਗ ਲੱਗਣ ਦਾ ਖ਼ਤਰਾ ਹੈ। ਬਚਾਅ ਲਈ ਇੰਡੋਫਿਲ ਐਮ-45 ਦਾ ਛਿੜਕਾਅ ਕਰੋ ਅਤੇ ਹਲਕਾ ਪਾਣੀ ਲਗਾਓ।",
+      "speech_hi": "आलू की फसल में पछेती झुलसा रोग से बचाव हेतु इंडोफिल M-45 का छिड़काव करें और हल्की सिंचाई जारी रखें।",
+      "speech_hinglish": "Aalu ki fasal ke liye important alert: Fog ke chalte late blight disease ka khatra hai. Bachav ke liye Indofil M-45 spray karein aur halki sinchai karein."
+    }
+  ]
+}

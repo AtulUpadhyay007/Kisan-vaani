@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="pa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>ਕਿਸਾਨ ਬਾਣੀ (Kisan Vaani) - ਅੰਮ੍ਰਿਤਸਰ ਕਿਸਾਨ ਸਹਾਇਕ</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       WELCOME AND SIGN-IN SCREEN (PROTOTYPE DEMONSTRATION)
+       ======================================================================== -->
+  <div id="welcome-screen" class="welcome-screen">
+    <div class="welcome-modal-card">
+      <!-- Farming Illustration Hero: Layered Rolling Hills & Rising Sun -->
+      <div class="welcome-art-hero">
+        <svg viewBox="0 0 500 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="250" cy="90" r="50" fill="#FBBF24" opacity="0.9" />
+          <circle cx="250" cy="90" r="75" fill="#F59E0B" opacity="0.35" />
+          <circle cx="250" cy="90" r="110" fill="#F59E0B" opacity="0.15" />
+          <path d="M0,150 Q120,90 250,130 T500,120 L500,200 L0,200 Z" fill="#1E3A8A" opacity="0.75" />
+          <path d="M0,165 Q150,120 300,160 T500,140 L500,200 L0,200 Z" fill="#0D9488" opacity="0.85" />
+          <path d="M0,175 Q180,150 360,180 T500,165 L500,200 L0,200 Z" fill="#065F46" />
+          <path d="M70,145 L73,125 L76,145 Z M65,125 L81,125" stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.7"/>
+          <circle cx="73" cy="125" r="8" stroke="#FFFFFF" stroke-width="1" fill="none" opacity="0.5"/>
+        </svg>
+
+        <div class="welcome-brand-overlay">
+          <div class="welcome-badge-icon">🌾</div>
+          <h1 id="welcome-title">ਕਿਸਾਨ ਬਾਣੀ (Kisan Vaani)</h1>
+          <p id="welcome-subtitle">ਅੰਮ੍ਰਿਤਸਰ ਅਤੇ ਮਾਝਾ ਖੇਤਰ ਦੇ ਕਿਸਾਨਾਂ ਲਈ ਪੰਜਾਬੀ ਅਤੇ ਹਿੰਦੀ ਬੋਲਣ ਵਾਲੀ ਆਵਾਜ਼ੀ ਹੈਲਪਲਾਈਨ</p>
+        </div>
+      </div>
+
+      <div class="welcome-form-body">
+        <!-- 3-Language Selector: Punjabi, Hindi, Hinglish -->
+        <div class="welcome-lang-selector">
+          <button id="welcome-lang-pa" class="welcome-lang-btn active">ਪੰਜਾਬੀ</button>
+          <button id="welcome-lang-hi" class="welcome-lang-btn">हिंदी</button>
+          <button id="welcome-lang-hinglish" class="welcome-lang-btn">Hinglish</button>
+        </div>
+
+        <!-- Optional Name Field -->
+        <div class="input-group">
+          <label for="welcome-name" id="welcome-name-label">ਤੁਹਾਡਾ ਨਾਮ (ਵਿਕਲਪਿਕ ਨਾਮ):</label>
+          <input type="text" id="welcome-name" placeholder="ਜਿਵੇਂ ਹਰਪ੍ਰੀਤ ਸਿੰਘ ਜਾਂ ਆਪਣਾ ਨਾਮ ਲਿਖੋ...">
+        </div>
+
+        <!-- Optional Mobile Number Field -->
+        <div class="input-group">
+          <label for="welcome-phone" id="welcome-phone-label">ਮੋਬਾਈਲ ਨੰਬਰ (ਵਿਕਲਪਿਕ ਨੰਬਰ):</label>
+          <input type="tel" id="welcome-phone" placeholder="ਜਿਵੇਂ 9876543210 (ਸਿਰਫ਼ ਡੈਮੋ ਲਈ)...">
+        </div>
+
+        <button id="welcome-btn-continue" class="welcome-btn-continue">
+          ਅੱਗੇ ਵਧੋ (Continue) ➔
+        </button>
+        <button id="welcome-btn-guest" class="welcome-btn-guest">
+          ਮਹਿਮਾਨ ਵਜੋਂ ਵਰਤੋ (Explore as Guest)
+        </button>
+
+        <p class="welcome-notice-text" id="welcome-notice-text">
+          ℹ️ <strong>ਪ੍ਰੋਟੋਟਾਈਪ ਨੋਟ:</strong> ਇਹ ਅੰਮ੍ਰਿਤਸਰ ਦੇ ਕਿਸਾਨਾਂ ਲਈ ਇੱਕ ਇੰਟਰਐਕਟਿਵ ਡੈਮੋ ਪ੍ਰੋਟੋਟਾਈਪ ਹੈ। ਕੋਈ ਅਸਲ SMS ਜਾਂ OTP ਨਹੀਂ ਭੇਜਿਆ ਜਾਂਦਾ। ਤੁਹਾਡਾ ਨਾਮ ਅਤੇ ਨੰਬਰ ਸਿਰਫ਼ ਇਸੇ ਬ੍ਰਾਊਜ਼ਰ ਡਿਵਾਈਸ 'ਤੇ ਰਹਿੰਦਾ ਹੈ।
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MAIN DASHBOARD
+       ======================================================================== -->
+  <div class="app-container">
+
+    <!-- APP HEADER -->
+    <header class="app-header">
+      <div class="header-top">
+        <div class="brand-badge">
+          <div class="brand-logo-icon">🌾</div>
+          <div class="brand-titles">
+            <h1>ਕਿਸਾਨ ਬਾਣੀ</h1>
+            <span class="brand-subtitle">Kisan Vaani • Voice Assistant</span>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <div id="header-user-tag" class="header-user-tag" title="User Profile">
+            👤 ਕਿਸਾਨ ਵੀਰ
+          </div>
+          <button id="btn-open-settings" class="btn-settings-gear" aria-label="Settings" title="ਸੈਟਿੰਗਾਂ (Settings)">
+            ⚙️
+          </button>
+        </div>
+      </div>
+
+      <div class="header-district-bar">
+        <div id="header-district-container">
+          <span id="header-district-label">📍 ਜ਼ਿਲ੍ਹਾ: </span>
+          <strong id="header-district-val">ਅੰਮ੍ਰਿਤਸਰ ਮੰਡੀਆਂ (Amritsar Mandis)</strong>
+          <span id="header-weather-pill" class="verified-pill" style="margin-left: 8px; background: #0369A1; color: #E0F2FE; font-weight: 700;">🌡️ 14°C (Mist)</span>
+        </div>
+        <div style="display: flex; gap: 8px; align-items: center;">
+          <button id="btn-inspect-dataset" class="verified-pill" style="cursor: pointer; border: none; background: #0284C7; color: white;" title="Inspect raw verified datasets">
+            🔍 ਡਾਟਾਸੈੱਟ ਨਿਰੀਖਣ
+          </button>
+          <div id="header-grounded-pill" class="verified-pill">
+            ✓ 100% ਪ੍ਰਮਾਣਿਤ
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ====================================================================
+         VIEW 1: AI HOME (VOICE HELPLINE & ASSISTANT CORE)
+         ==================================================================== -->
+    <div id="view-home" class="app-view active">
+
+      <!-- MAIN ACTION: WARM MARIGOLD YELLOW MICROPHONE -->
+      <section class="hero-voice-section">
+        <div class="hero-mic-wrapper">
+          <div class="mic-rings"></div>
+          <button id="hero-mic-btn" class="hero-mic-btn state-idle" aria-label="Press Mic to Speak" title="Press Mic to Speak">
+            🎙️
+          </button>
+        </div>
+
+        <div class="mic-caption">
+          <h2 id="mic-status-label">ਮਾਈਕ ਦਬਾ ਕੇ ਬੋਲੋ</h2>
+          <p class="mic-subtext" id="mic-hint-text">ਫ਼ਲ, ਸਬਜ਼ੀ ਭਾਅ, ਮੌਸਮ ਅਲਰਟ, ਫ਼ਸਲ ਸਲਾਹ ਜਾਂ ਸਕੀਮ ਪੁੱਛੋ</p>
+        </div>
+
+        <!-- Animated Waveform -->
+        <div id="mic-wave-container" class="sound-wave-anim hidden">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </section>
+
+      <!-- RESULTS, TRANSCRIPT & SPOKEN ANSWER SECTION -->
+      <section class="results-section">
+        <!-- Recognized Speech Transcript -->
+        <div id="transcript-card" class="transcript-card hidden">
+          <div class="transcript-header">
+            <span id="transcript-header-label">Speech Heard (ਤੁਹਾਡੀ ਆਵਾਜ਼)</span>
+            <span id="transcript-status">✓ ਕਿਰਿਆਸ਼ੀਲ (Active)</span>
+          </div>
+          <div id="transcript-text" class="transcript-content">
+            Listening...
+          </div>
+        </div>
+
+        <!-- Grounded Spoken Answer Card -->
+        <div id="answer-card" class="answer-card hidden">
+          <div class="answer-card-header">
+            <span id="grounded-badge-text" class="grounded-badge">
+              ✓ 100% ਪ੍ਰਮਾਣਿਤ ਡਾਟਾ (Zero Hallucination)
+            </span>
+            <div id="speaking-indicator" class="speaking-badge hidden">
+              <span class="speaking-dot"></span>
+              <span id="speaking-indicator-text">Speaking...</span>
+            </div>
+          </div>
+
+          <div class="answer-titles">
+            <h3 id="answer-title">ਜਾਣਕਾਰੀ (Information)</h3>
+            <div id="answer-subtitle" class="answer-subtitle"></div>
+          </div>
+
+          <!-- Spoken Answer Body -->
+          <div id="answer-text" class="answer-spoken-body">
+            ਜਵਾਬ ਇੱਥੇ ਦਿਖਾਈ ਦੇਵੇਗਾ...
+          </div>
+
+          <!-- Detail Metrics Badge Grid -->
+          <div id="answer-details" class="answer-details-grid"></div>
+
+          <!-- Audio Action Controls: Replay & Stop -->
+          <div class="answer-audio-controls">
+            <button id="btn-replay-audio" class="btn-audio-action">
+              <span>🔊</span> <span id="btn-replay-text">ਦੁਬਾਰਾ ਸੁਣੋ (Replay Answer)</span>
+            </button>
+            <button id="btn-stop-audio" class="btn-audio-action btn-secondary" title="Stop Audio">
+              <span>⏹️</span>
+            </button>
+          </div>
+
+          <div class="answer-meta-footer">
+            <span id="answer-source">ਸਰੋਤ: Punjab Mandi Board (eNAM)</span>
+            <span id="answer-time">ਅੱਪਡੇਟ: 20 Nov 2026</span>
+            <span id="answer-latency" style="color: #059669;">Latency: 1.1 ms (&lt;6s)</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3D COVERFLOW TOPIC NAVIGATION (SMOOTH LOOPING CAROUSEL) -->
+      <section class="coverflow-section">
+        <div class="coverflow-header">
+          <div class="coverflow-title-tag">
+            <span id="coverflow-title-tag">🔄 3D ਵਿਸ਼ਾ ਕੈਰੋਸਲ</span>
+          </div>
+          <div class="coverflow-controls">
+            <button id="coverflow-prev" class="btn-coverflow-arrow" title="Previous Topic">◀</button>
+            <button id="coverflow-next" class="btn-coverflow-arrow" title="Next Topic">▶</button>
+          </div>
+        </div>
+
+        <!-- 3D Viewport Area -->
+        <div class="coverflow-stage-viewport">
+          <div id="coverflow-stage" class="coverflow-stage"></div>
+        </div>
+
+        <!-- Indicator Dots -->
+        <div id="coverflow-dots" class="coverflow-dots"></div>
+
+        <!-- Active Topic & Prepared Question Banner -->
+        <div class="prepared-question-box">
+          <div class="prep-info-col">
+            <div id="coverflow-active-text" class="prep-info-label">🥦 ਸਬਜ਼ੀਆਂ ਅਤੇ ਫ਼ਲਾਂ ਦੇ ਭਾਅ</div>
+            <div id="coverflow-prep-question" class="prep-info-text">"ਵੱਲ੍ਹਾ ਮੰਡੀ ਵਿੱਚ ਨਵੇਂ ਆਲੂ ਅਤੇ ਕਿੰਨੂ ਦਾ ਭਾਅ ਕੀ ਹੈ?"</div>
+          </div>
+          <button id="coverflow-ask-btn" class="btn-ask-prep" title="Ask Prepared Question">
+            ਪੁੱਛੋ ➔
+          </button>
+        </div>
+      </section>
+
+      <!-- QUICK TOPIC PROMPTS -->
+      <section class="quick-prompts-section">
+        <div class="section-label">
+          <span id="quick-prompts-label">⚡ ਆਮ ਪੁੱਛੇ ਜਾਂਦੇ ਸਵਾਲ (ਜਲਦੀ ਜਵਾਬ ਲਈ ਟੈਪ ਕਰੋ):</span>
+        </div>
+        <div class="prompts-scroll-row">
+          <button id="prompt-chip-1" class="prompt-chip" data-query="ਨਵਾਂ ਆਲੂ ਪੁਖਰਾਜ ਭਾਅ ਵੱਲ੍ਹਾ ਮੰਡੀ">
+            <span>🥔</span> <span>ਨਵਾਂ ਆਲੂ ਰੇਟ?</span>
+          </button>
+          <button id="prompt-chip-2" class="prompt-chip" data-query="ਪੰਜਾਬ ਕਿੰਨੂ ਫ਼ਲ ਦਾ ਰੇਟ">
+            <span>🍊</span> <span>ਕਿੰਨੂ ਫ਼ਲ ਦਾ ਭਾਅ?</span>
+          </button>
+          <button id="prompt-chip-3" class="prompt-chip" data-query="ਹਰੇ ਮਟਰ ਦਾ ਭਾਅ">
+            <span>🥦</span> <span>ਹਰੇ ਮਟਰ ਦਾ ਭਾਅ?</span>
+          </button>
+          <button id="prompt-chip-4" class="prompt-chip" data-query="ਬਾਸਮਤੀ 1121 ਰੇਟ">
+            <span>🌾</span> <span>ਬਾਸਮਤੀ 1121?</span>
+          </button>
+          <button id="prompt-chip-5" class="prompt-chip" data-query="ਕਣਕ ਕੋਰ ਪਾਣੀ ਸਲਾਹ">
+            <span>💧</span> <span>ਕਣਕ ਪਹਿਲਾ ਪਾਣੀ?</span>
+          </button>
+          <button id="prompt-chip-6" class="prompt-chip" data-query="ਵੱਲ੍ਹਾ ਮੰਡੀ ਦੀ ਦੂਰੀ ਅਤੇ ਸਮਾਂ">
+            <span>📍</span> <span>ਵੱਲ੍ਹਾ ਮੰਡੀ ਦੂਰੀ ਤੇ ਸਮਾਂ?</span>
+          </button>
+          <button id="prompt-chip-7" class="prompt-chip" data-query="ਪੀ ਐਮ ਕਿਸਾਨ ਕਿਸ਼ਤ">
+            <span>💰</span> <span>ਪੀਐੱਮ ਕਿਸਾਨ ₹6000?</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- TEXT INPUT FALLBACK -->
+      <section class="text-fallback-section">
+        <div class="section-label">
+          <span id="text-fallback-label">⌨️ ਲਿਖ ਕੇ ਪੁੱਛੋ (Text Input Fallback)</span>
+        </div>
+        <div class="text-input-box">
+          <input type="text" id="text-query-input" placeholder="ਜਾਂ ਇੱਥੇ ਲਿਖ ਕੇ ਪੁੱਛੋ (ਜਿਵੇਂ ਨਵਾਂ ਆਲੂ ਭਾਅ, ਕਣਕ ਰੇਟ)..." autocomplete="off">
+          <button id="text-query-submit" class="btn-text-submit">
+            ਪੁੱਛੋ ➔
+          </button>
+        </div>
+      </section>
+
+      <!-- BASIC PHONE / FEATURE PHONE IVR SIMULATOR -->
+      <section class="ivr-banner">
+        <div class="ivr-banner-text">
+          <span id="ivr-banner-title">📟 ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਸਾਦਾ ਕੀਪੈਡ ਫ਼ੋਨ ਹੈ? ਟੋਲ-ਫ਼੍ਰੀ 1800-180-1551</span><br>
+          <small id="ivr-banner-sub" style="color: var(--text-muted);">ਬਿਨਾਂ ਇੰਟਰਨੈੱਟ ਕੀਪੈਡ ਮੋਬਾਈਲ 'ਤੇ ਆਵਾਜ਼ੀ ਹੈਲਪਲਾਈਨ ਚਲਾਓ</small>
+        </div>
+        <button id="btn-open-ivr" class="btn-open-ivr">
+          ਫ਼ੋਨ ਕੀਪੈਡ ਚਲਾਓ
+        </button>
+      </section>
+
+    </div><!-- /#view-home -->
+
+    <!-- ====================================================================
+         VIEW 2: WEATHER & VERIFIED ALERTS
+         ==================================================================== -->
+    <div id="view-weather" class="app-view">
+      <div class="view-section-header">
+        <h2 class="view-section-title" id="view-weather-title">🌦️ ਮੌਸਮ ਅਤੇ ਖੇਤੀ ਅਲਰਟ (Weather & Alerts)</h2>
+      </div>
+
+      <!-- ANIMATED WEATHER VISUAL & VERIFIED LOCAL ALERTS -->
+      <section class="weather-visual-card">
+        <div class="weather-visual-top">
+          <div class="weather-brand-left">
+            <span style="font-size: 26px;">🌦️</span>
+            <div>
+              <div class="weather-brand-title" id="weather-brand-title">ਅੰਮ੍ਰਿਤਸਰ ਮੌਸਮ ਅਤੇ ਖੇਤੀ ਅਲਰਟ</div>
+              <span class="weather-brand-sub" id="weather-brand-sub">ਐਗਰੋਮੈਟ IMD ਸਟੇਸ਼ਨ ਅਤੇ ਕੇਵੀਕੇ ਅੰਮ੍ਰਿਤਸਰ</span>
+            </div>
+          </div>
+          <div class="illustrative-badge" id="weather-art-badge" title="This visual graphic is decorative illustration; alert data is 100% verified">
+            🎨 ਕਲਾਤਮਕ ਚਿੱਤਰ (ਸੰਕੇਤਕ) • Decorative Art
+          </div>
+        </div>
+
+        <!-- Animated SVG Weather Illustration -->
+        <div class="weather-art-viewport">
+          <svg viewBox="0 0 500 140" preserveAspectRatio="xMidYMid meet" class="weather-svg-art">
+            <!-- Sky backdrop -->
+            <rect x="0" y="0" width="500" height="140" fill="transparent" />
+            <!-- Animated Sun with glowing revolving rays -->
+            <g class="weather-sun-spin">
+              <circle cx="120" cy="70" r="28" fill="#FDE047" />
+              <circle cx="120" cy="70" r="38" fill="#F59E0B" opacity="0.3" />
+              <!-- Sun rays -->
+              <line x1="120" y1="28" x2="120" y2="18" stroke="#FDE047" stroke-width="3" stroke-linecap="round" />
+              <line x1="120" y1="112" x2="120" y2="122" stroke="#FDE047" stroke-width="3" stroke-linecap="round" />
+              <line x1="78" y1="70" x2="68" y2="70" stroke="#FDE047" stroke-width="3" stroke-linecap="round" />
+              <line x1="162" y1="70" x2="172" y2="70" stroke="#FDE047" stroke-width="3" stroke-linecap="round" />
+              <line x1="90" y1="40" x2="82" y2="32" stroke="#FDE047" stroke-width="3" stroke-linecap="round" />
+              <line x1="150" y1="100" x2="158" y2="108" stroke="#FDE047" stroke-width="3" stroke-linecap="round" />
+              <line x1="90" y1="100" x2="82" y2="108" stroke="#FDE047" stroke-width="3" stroke-linecap="round" />
+              <line x1="150" y1="40" x2="158" y2="32" stroke="#FDE047" stroke-width="3" stroke-linecap="round" />
+            </g>
+            <!-- Drifting peaceful cloud -->
+            <g opacity="0.9">
+              <path d="M220 85 Q 230 65 255 70 Q 275 55 305 68 Q 330 60 345 80 Q 360 85 360 98 Q 355 110 335 110 L 230 110 Q 215 105 220 85 Z" fill="#FFFFFF" opacity="0.85" />
+            </g>
+            <!-- Animated breeze wisps -->
+            <g class="weather-breeze-drift" stroke="#BAE6FD" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.8">
+              <path d="M30 45 Q 60 40 90 48 T 130 45" />
+              <path d="M260 35 Q 290 30 320 38 T 370 35" />
+              <path d="M370 65 Q 400 58 430 66 T 470 62" />
+            </g>
+            <!-- Flying birds -->
+            <path d="M420 40 Q 425 35 430 40 Q 435 35 440 40" stroke="#FFFFFF" stroke-width="1.8" fill="none" opacity="0.75"/>
+            <path d="M445 50 Q 450 45 455 50 Q 460 45 465 50" stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.6"/>
+          </svg>
+        </div>
+
+        <!-- Real Live Weather Snapshot -->
+        <div class="weather-live-info-row">
+          <div>
+            <div class="weather-temp-badge">
+              <span>14°C</span>
+              <span id="weather-temp-range" style="font-size: 13px; font-weight: 600; color: #BAE6FD;">(ਘੱਟੋ-ਘੱਟ 13°C, ਵੱਧ ਤੋਂ ਵੱਧ 24°C)</span>
+            </div>
+            <span class="weather-condition-text" id="weather-condition-text">ਸਵੇਰ ਦੀ ਧੁੰਦ ਤੇ ਕੋਹਰਾ • ਮੀਂਹ ਸੰਭਾਵਨਾ: 0% • ਹਵਾ: 4 km/h ਸ਼ਾਂਤ</span>
+          </div>
+          <div class="alert-status-badge" id="weather-status-badge">
+            ਸੁਰੱਖਿਅਤ ਸਥਿਤੀ
+          </div>
+        </div>
+
+        <!-- Local Alert Action Button -->
+        <button id="btn-weather-local-alert" class="btn-check-local-alert" title="Click to verify real-time IMD / KVK alerts">
+          <span>⚠️</span> <span id="btn-weather-alert-text">ਸਥਾਨਕ ਮੌਸਮ ਅਲਰਟ ਜਾਂਚੋ (Check Local Alert)</span>
+        </button>
+
+        <!-- Alert Request Chips -->
+        <div class="alert-request-chips" style="margin-top: 10px;">
+          <button id="weather-chip-1" class="alert-req-chip" data-query="ਕੀ ਅੰਮ੍ਰਿਤਸਰ ਵਿੱਚ ਅੱਜ ਮੀਂਹ ਪਵੇਗਾ">
+            🌧️ ਮੀਂਹ ਅਲਰਟ?
+          </button>
+          <button id="weather-chip-2" class="alert-req-chip" data-query="ਹਵਾ ਦੀ ਰਫ਼ਤਾਰ ਅਤੇ ਸਪਰੇਅ ਚਿਤਾਵਨੀ">
+            💨 ਹਵਾ ਤੇ ਸਪਰੇਅ ਚਿਤਾਵਨੀ?
+          </button>
+          <button id="weather-chip-3" class="alert-req-chip" data-query="ਧੁੰਦ ਅਤੇ ਕੋਰੇ ਦੀ ਸਥਿਤੀ">
+            🌫️ ਧੁੰਦ ਤੇ ਕੋਰਾ ਅਲਰਟ?
+          </button>
+        </div>
+
+        <div class="alert-meta-time" style="color: #BAE6FD; margin-top: 8px;">
+          <span id="weather-meta-source">ਸਰੋਤ: Agromet IMD & KVK Amritsar</span>
+          <span id="weather-meta-time">ਅੱਪਡੇਟ: 20 Nov 2026, 07:00 AM</span>
+        </div>
+      </section>
+
+      <!-- Weather Advisories and Station Info -->
+      <div style="margin-top: 16px; display: flex; flex-direction: column; gap: 12px;">
+        <div class="info-card" id="weather-station-card">
+          <h4>📍 ਅੰਮ੍ਰਿਤਸਰ (ਐਗਰੋਮੈਟ ਸਟੇਸ਼ਨ ਤੇ IMD ਨਾਗ ਕਲਾਂ)</h4>
+          <span class="info-highlight">ਤਾਪਮਾਨ: 14°C (ਘੱਟੋ-ਘੱਟ 13°C, ਵੱਧ ਤੋਂ ਵੱਧ 24°C) • ਨਮੀ: 82%</span>
+          <p>ਮੌਸਮ ਬਿਲਕੁਲ ਸਾਫ਼ ਅਤੇ ਸਵੇਰੇ ਹਲਕੀ ਧੁੰਦ ਹੈ। ਮੀਂਹ ਦੀ ਜ਼ੀਰੋ ਸੰਭਾਵਨਾ ਹੈ (0%)। ਹਵਾ 4 km/h ਸ਼ਾਂਤ ਹੈ। ਅਗਲੇ 3 ਦਿਨਾਂ ਤੱਕ ਖੁਸ਼ਕ ਮੌਸਮ ਰਹੇਗਾ।</p>
+          <p><strong>🚜 ਕੀਟਨਾਸ਼ਕ ਸਪਰੇਅ ਸਲਾਹ:</strong> ਹਵਾ ਸ਼ਾਂਤ ਹੋਣ ਕਾਰਨ ਕਣਕ ਅਤੇ ਸਰ੍ਹੋਂ ਵਿੱਚ ਨਦੀਨ-ਨਾਸ਼ਕ ਜਾਂ ਪੌਸ਼ਟਿਕ ਸਪਰੇਅ ਦੁਪਹਿਰ ਵੇਲੇ ਬਿਲਕੁਲ ਸੁਰੱਖਿਅਤ ਹੈ।</p>
+        </div>
+        <div class="info-card" id="weather-irrigation-card">
+          <h4>💧 ਸਿੰਚਾਈ ਸਲਾਹ (PAU KVK)</h4>
+          <span class="info-highlight">ਨਮੀ ਦੀ ਸਥਿਤੀ: ਉੱਤਮ (Optimum)</span>
+          <p>ਮੀਂਹ ਦੀ ਕੋਈ ਸੰਭਾਵਨਾ ਨਹੀਂ ਹੈ, ਇਸ ਲਈ ਆਲੂ ਅਤੇ ਸਬਜ਼ੀਆਂ ਵਿੱਚ ਲੋੜ ਅਨੁਸਾਰ ਹਲਕੀ ਸਿੰਚਾਈ ਕਰਦੇ ਰਹੋ। ਰਾਤ ਨੂੰ ਠੰਡ ਤੋਂ ਬਚਾਅ ਲਈ ਖੇਤ ਵਿੱਚ ਨਮੀ ਬਣਾਈ ਰੱਖੋ।</p>
+        </div>
+      </div>
+    </div><!-- /#view-weather -->
+
+    <!-- ====================================================================
+         VIEW 3: FARM TOOLKIT & CROP STAGES
+         ==================================================================== -->
+    <div id="view-toolkit" class="app-view">
+      <div class="view-section-header">
+        <h2 class="view-section-title" id="view-toolkit-title">🧰 ਕਿਸਾਨ ਟੂਲਕਿੱਟ ਅਤੇ ਫ਼ਸਲ ਸਟੇਜਾਂ (Farm Toolkit)</h2>
+      </div>
+
+      <!-- CROP GROWTH EXPLORER SECTION (INTERACTIVE STAGES & ADVICE) -->
+      <section class="crop-growth-section">
+        <div id="crop-growth-container"></div>
+      </section>
+
+      <!-- FARM TOOLKIT (TABBED: CALENDAR, SYMPTOMS, MANDIS, QUALITY, LEDGER) -->
+      <section class="farm-toolkit-section">
+        <div id="farm-toolkit-container"></div>
+      </section>
+
+      <!-- Verified Crop Advisories -->
+      <div style="margin-top: 16px; display: flex; flex-direction: column; gap: 12px;">
+        <div class="info-card" id="toolkit-wheat-card">
+          <h4>🌾 ਕਣਕ ਫ਼ਸਲ ਸੰਭਾਲ (PAU ਸਲਾਹ)</h4>
+          <span class="info-highlight">ਪਹਿਲਾ ਕੋਰ ਪਾਣੀ: 21 ਦਿਨਾਂ ਬਾਅਦ (CRI ਸਟੇਜ)</span>
+          <p>ਗੁੱਲੀ ਡੰਡੇ ਦੀ ਰੋਕਥਾਮ ਲਈ ਪਹਿਲੇ ਪਾਣੀ ਤੋਂ ਬਾਅਦ ਸਿਫ਼ਾਰਿਸ਼ ਕੀਤਾ ਨਦੀਨ-ਨਾਸ਼ਕ ਸਪਰੇਅ ਕਰੋ। ਅੱਧੀ ਬੋਰੀ ਯੂਰੀਆ ਪ੍ਰਤੀ ਏਕੜ ਪਹਿਲੇ ਪਾਣੀ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂ ਤੁਰੰਤ ਬਾਅਦ ਪਾਓ।</p>
+        </div>
+        <div class="info-card" id="toolkit-potato-card">
+          <h4>🥔 ਆਲੂ ਪਿਛੇਤਾ ਝੁਲਸਾ ਰੋਗ (Late Blight) ਬਚਾਅ</h4>
+          <span class="info-highlight">ਧੁੰਦ ਅਤੇ ਠੰਡ ਚਿਤਾਵਨੀ</span>
+          <p>ਆਲੂ ਨੂੰ ਪਿਛੇਤੇ ਝੁਲਸੇ ਰੋਗ ਤੋਂ ਬਚਾਉਣ ਲਈ ਇੰਡੋਫਿਲ ਐਮ-45 (2.5 ਗ੍ਰਾਮ ਪ੍ਰਤੀ ਲੀਟਰ) ਸਪਰੇਅ ਕਰੋ ਅਤੇ ਹਲਕੀ ਸਿੰਚਾਈ ਰੱਖੋ ਤਾਂ ਜੋ ਠੰਡ ਤੇ ਪਾਲੇ ਦਾ ਅਸਰ ਘੱਟ ਹੋਵੇ।</p>
+        </div>
+      </div>
+    </div><!-- /#view-toolkit -->
+
+    <!-- ====================================================================
+         VIEW 4: MANDI RATES & MARKETS DIRECTORY
+         ==================================================================== -->
+    <div id="view-mandi" class="app-view">
+      <div class="view-section-header">
+        <h2 class="view-section-title" id="view-mandi-title">📊 ਮੰਡੀ ਭਾਅ ਅਤੇ ਬਜ਼ਾਰ (Mandi Rates & Directory)</h2>
+      </div>
+
+      <!-- MANDI RATES SEARCH & LIVE ARRIVALS GRID -->
+      <div class="mandi-filter-bar" style="margin-bottom: 12px;">
+        <input type="text" id="mandi-search-input" placeholder="ਸਬਜ਼ੀ, ਫ਼ਲ ਜਾਂ ਮੰਡੀ ਲੱਭੋ (ਜਿਵੇਂ ਆਲੂ, ਕਿੰਨੂ, ਕਣਕ, ਵੱਲਾ)...">
+      </div>
+      <div id="mandi-rates-grid" class="mandi-rates-grid"></div>
+
+      <!-- NEARBY MANDIS DIRECTORY -->
+      <div style="margin-top: 16px; display: flex; flex-direction: column; gap: 12px;">
+        <h3 class="directory-section-heading" id="mandi-directory-heading">📍 ਅੰਮ੍ਰਿਤਸਰ ਮੰਡੀਆਂ ਦਾ ਵੇਰਵਾ (Markets Directory)</h3>
+        <div id="mandi-directory-cards" style="display: flex; flex-direction: column; gap: 12px;">
+          <div class="info-card">
+            <h4>📍 Vallah Mandi (Amritsar Main Yard)</h4>
+            <span class="info-highlight">Distance: 6 km from City (GT Road Bypass)</span>
+            <p><strong>Timings:</strong> 05:00 AM - 07:00 PM</p>
+            <p><strong>Specialty:</strong> Subzi aur phal wholesale hub, Naya Aalu arrivals, Kinnow distribution</p>
+            <p><strong>Facilities:</strong> e-NAM electronic weighing scale, Kisan Bhawan rest house, canteen, covered sheds</p>
+            <p><strong>Secretary Phone:</strong> 0183-2581240</p>
+          </div>
+          <div class="info-card">
+            <h4>📍 Bhagtanwala Mandi (Grain Yard)</h4>
+            <span class="info-highlight">Distance: 3.5 km South of Golden Temple</span>
+            <p><strong>Specialty:</strong> Basmati (1121, 1509), Gehu procurement</p>
+            <p><strong>Phone:</strong> 0183-2582100</p>
+          </div>
+          <div class="info-card">
+            <h4>📍 Majitha Mandi</h4>
+            <span class="info-highlight">Distance: 18 km North from Amritsar</span>
+            <p><strong>Arrivals:</strong> PR-126 Paddy, Wheat, Vegetables</p>
+            <p><strong>Phone:</strong> 0183-2762231</p>
+          </div>
+          <div class="info-card">
+            <h4>📍 Mehta Chowk & Jandiala Guru Mandis</h4>
+            <span class="info-highlight">Distance: 25 km & 15 km East</span>
+            <p><strong>Arrivals:</strong> Wheat, Paddy, Seasonal Vegetables, Gobhi, Matar</p>
+            <p><strong>Phone:</strong> 0183-2784110 / 0183-2589020</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- GOVERNMENT SCHEMES ACCORDION / CARDS -->
+      <div style="margin-top: 16px; display: flex; flex-direction: column; gap: 12px;">
+        <h3 class="directory-section-heading" id="schemes-heading">📜 ਸਰਕਾਰੀ ਸਕੀਮਾਂ (Government Schemes)</h3>
+        <div id="schemes-cards" style="display: flex; flex-direction: column; gap: 12px;">
+          <div class="info-card">
+            <h4>PM-Kisan Samman Nidhi</h4>
+            <span class="info-highlight">₹6,000 per year (3 installments of ₹2,000)</span>
+            <p>All landholding farmers. e-KYC and land seeding required. Helpline: 155261</p>
+          </div>
+          <div class="info-card">
+            <h4>Crop Residue Management (CRM) Subsidy</h4>
+            <span class="info-highlight">50% to 80% Subsidy</span>
+            <p>Subsidy on Super Seeder, Happy Seeder, Baler. Portal: agrimachinerypb.com</p>
+          </div>
+          <div class="info-card">
+            <h4>Punjab Fasal Bima / Relief Scheme</h4>
+            <span class="info-highlight">Disaster Compensation up to ₹15,000/acre</span>
+            <p>Hailstorm, flood, or unseasonal heavy rain damage compensation. KVK Amritsar: 0183-2580790</p>
+          </div>
+        </div>
+      </div>
+    </div><!-- /#view-mandi -->
+
+    <!-- ====================================================================
+         VIEW 5: PROFILE & SETTINGS
+         ==================================================================== -->
+    <div id="view-profile" class="app-view">
+      <div class="view-section-header">
+        <h2 class="view-section-title" id="view-profile-title">👤 ਕਿਸਾਨ ਪ੍ਰੋਫਾਈਲ ਅਤੇ ਸੈਟਿੰਗਾਂ (Profile & Settings)</h2>
+      </div>
+
+      <div class="profile-view-wrapper">
+        <!-- USER PROFILE CARD -->
+        <div class="profile-card-block">
+          <div class="profile-block-title">
+            <span>👤</span>
+            <span id="profile-card-title">ਤੁਹਾਡੀ ਪ੍ਰੋਫਾਈਲ (Your Profile)</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px; margin-top: 4px;">
+            <div style="width: 52px; height: 52px; border-radius: 50%; background: var(--cobalt-primary); color: white; display: flex; align-items: center; justify-content: center; font-size: 26px; font-weight: bold; flex-shrink: 0;">
+              👨‍🌾
+            </div>
+            <div>
+              <div id="profile-display-name" class="profile-user-name">ਕਿਸਾਨ ਵੀਰ</div>
+              <div id="profile-display-phone" class="profile-user-sub">ਮਹਿਮਾਨ ਮੋਡ (Guest Session)</div>
+              <div class="profile-user-region">📍 ਅੰਮ੍ਰਿਤਸਰ, ਪੰਜਾਬ • Verified Local Access</div>
+            </div>
+          </div>
+          <button id="btn-profile-inspect-datasets" class="verified-pill" style="margin-top: 8px; cursor: pointer; border: none; background: #0284C7; color: white; padding: 10px 14px; width: 100%; text-align: center; justify-content: center;" title="Inspect raw verified datasets">
+            🔍 Inspect All 7 Verified Datasets
+          </button>
+        </div>
+
+        <!-- THEME SETTINGS -->
+        <div class="profile-card-block">
+          <div class="profile-block-title">
+            <span>🎨</span>
+            <span id="profile-theme-label">ਡਿਸਪਲੇ ਥੀਮ (Display Theme)</span>
+          </div>
+          <div style="display: flex; gap: 10px; margin-top: 4px;">
+            <button id="profile-theme-light" class="theme-btn active" data-theme="light" style="flex: 1;">
+              <span>☀️</span> <span id="profile-theme-light-text">ਲਾਈਟ ਮੋਡ (Light)</span>
+            </button>
+            <button id="profile-theme-dark" class="theme-btn" data-theme="dark" style="flex: 1;">
+              <span>🌙</span> <span id="profile-theme-dark-text">ਡਾਰਕ ਮੋਡ (Dark)</span>
+            </button>
+          </div>
+          <p class="settings-hint-text" id="profile-theme-hint" style="margin: 0; font-size: 12px; color: var(--text-muted);">
+            ਖੇਤ ਵਿੱਚ ਰਾਤ ਵੇਲੇ ਵਰਤਣ ਲਈ ਡਾਰਕ ਮੋਡ ਚੁਣੋ (Eye-friendly at night)।
+          </p>
+        </div>
+
+        <!-- LANGUAGE SELECTION -->
+        <div class="profile-card-block">
+          <div class="profile-block-title">
+            <span>🌐</span>
+            <span id="profile-lang-label">ਭਾਸ਼ਾ ਚੁਣੋ (Choose Language)</span>
+          </div>
+          <div style="display: flex; gap: 8px; margin-top: 4px;">
+            <button id="profile-lang-pa" class="welcome-lang-btn active settings-lang-btn" data-lang="pa" style="flex: 1; padding: 10px 4px; font-size: 13px;">
+              ਪੰਜਾਬੀ
+            </button>
+            <button id="profile-lang-hi" class="welcome-lang-btn settings-lang-btn" data-lang="hi" style="flex: 1; padding: 10px 4px; font-size: 13px;">
+              हिंदी
+            </button>
+            <button id="profile-lang-hinglish" class="welcome-lang-btn settings-lang-btn" data-lang="hinglish" style="flex: 1; padding: 10px 4px; font-size: 13px;">
+              Hinglish
+            </button>
+          </div>
+          <p class="settings-hint-text" id="profile-lang-hint" style="margin: 0; font-size: 12px; color: var(--text-muted);">
+            ਆਵਾਜ਼ ਅਤੇ ਸਕ੍ਰੀਨ ਟੈਕਸਟ ਚੁਣੀ ਗਈ ਭਾਸ਼ਾ ਵਿੱਚ ਤੁਰੰਤ ਬਦਲ ਜਾਵੇਗੀ।
+          </p>
+        </div>
+
+        <!-- PRIVACY & OFFLINE DISCLOSURE -->
+        <div class="profile-card-block profile-privacy-card">
+          <div class="profile-block-title privacy-title">
+            <span>🛡️</span>
+            <span id="profile-privacy-title">ਸੁਰੱਖਿਆ ਅਤੇ ਪ੍ਰਾਈਵੇਸੀ (Privacy & Safety)</span>
+          </div>
+          <p class="privacy-desc" id="profile-privacy-desc">
+            ਕਿਸਾਨ ਬਾਣੀ ਕਿਸੇ ਵੀ ਬਾਹਰੀ ਸਰਵਰ 'ਤੇ ਤੁਹਾਡਾ ਡਾਟਾ ਨਹੀਂ ਭੇਜਦੀ। ਤੁਹਾਡਾ ਵਹੀ-ਖਾਤਾ (Sales Ledger) ਅਤੇ ਸੈਟਿੰਗਾਂ ਸਿਰਫ਼ ਤੁਹਾਡੇ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਸਥਾਨਕ (Local Storage) ਤੌਰ 'ਤੇ ਸੁਰੱਖਿਅਤ ਹਨ।
+          </p>
+        </div>
+
+        <!-- LOGOUT BLOCK -->
+        <div class="profile-card-block">
+          <div class="profile-block-title">
+            <span>🚪</span>
+            <span id="profile-account-label">ਖਾਤਾ ਅਤੇ ਸੈਸ਼ਨ (Account & Session)</span>
+          </div>
+          <button id="btn-profile-logout" class="btn-settings-logout" style="margin-top: 4px;">
+            <span>🚪</span> <span id="profile-logout-btn-text">ਲੌਗ ਆਉਟ ਕਰੋ (Logout)</span>
+          </button>
+          <p class="settings-hint-text" id="profile-logout-hint" style="margin: 0; font-size: 12px; color: var(--text-muted);">
+            Logout karne par aap wapis welcome sign-in screen par chale jayenge.
+          </p>
+        </div>
+      </div>
+    </div><!-- /#view-profile -->
+
+    <!-- ====================================================================
+         FIXED BOTTOM NAVIGATION BAR (5 TABS)
+         ==================================================================== -->
+    <nav class="bottom-nav-bar" id="bottom-nav-bar" aria-label="Bottom Navigation">
+      <button class="bottom-nav-item active" data-view="view-home" id="nav-btn-home" title="AI Voice Assistant">
+        <span class="b-nav-icon">🤖</span>
+        <span class="b-nav-label" id="b-nav-home">AI ਹੋਮ</span>
+      </button>
+      <button class="bottom-nav-item" data-view="view-weather" id="nav-btn-weather" title="Weather & Alerts">
+        <span class="b-nav-icon">🌦️</span>
+        <span class="b-nav-label" id="b-nav-weather">ਮੌਸਮ</span>
+      </button>
+      <button class="bottom-nav-item" data-view="view-toolkit" id="nav-btn-toolkit" title="Farm Toolkit & Growth Explorer">
+        <span class="b-nav-icon">🧰</span>
+        <span class="b-nav-label" id="b-nav-toolkit">ਟੂਲਕਿੱਟ</span>
+      </button>
+      <button class="bottom-nav-item" data-view="view-mandi" id="nav-btn-mandi" title="Mandi Rates & Markets">
+        <span class="b-nav-icon">📊</span>
+        <span class="b-nav-label" id="b-nav-mandi">ਮੰਡੀ ਭਾਅ</span>
+      </button>
+      <button class="bottom-nav-item" data-view="view-profile" id="nav-btn-profile" title="Profile & Settings">
+        <span class="b-nav-icon">👤</span>
+        <span class="b-nav-label" id="b-nav-profile">ਪ੍ਰੋਫਾਈਲ</span>
+      </button>
+    </nav>
+
+    <!-- ====================================================================
+         MODALS (IVR, SETTINGS, DATASET INSPECTOR)
+         ==================================================================== -->
+
+    <!-- IVR MODAL -->
+    <div id="ivr-modal" class="ivr-modal">
+      <div class="phone-device">
+        <div class="phone-speaker-bar"></div>
+        <div class="phone-screen">
+          <div class="phone-status-bar">
+            <span>📶 4G BSNL</span>
+            <span id="phone-call-timer">00:00</span>
+            <span>🔋 98%</span>
+          </div>
+          <div id="phone-call-status" style="font-size: 11px; font-weight: 700;">
+            1800-180-1551 (Kisan Vaani)
+          </div>
+          <div id="phone-screen-text" class="phone-screen-text">
+            Press [Call] to start.
+          </div>
+          <div id="phone-dialed-number" class="phone-dialed-number">
+            1800-180-1551 (Toll-Free)
+          </div>
+        </div>
+
+        <div class="phone-keypad">
+          <div class="keypad-key" data-key="1"><div class="key-digit">1</div><div class="key-sub">Mandi Bhav</div></div>
+          <div class="keypad-key" data-key="2"><div class="key-digit">2</div><div class="key-sub">Weather</div></div>
+          <div class="keypad-key" data-key="3"><div class="key-digit">3</div><div class="key-sub">Schemes</div></div>
+          <div class="keypad-key" data-key="4"><div class="key-digit">4</div><div class="key-sub">Crop Care</div></div>
+          <div class="keypad-key" data-key="5"><div class="key-digit">5</div><div class="key-sub">Mandis</div></div>
+          <div class="keypad-key" data-key="6"><div class="key-digit">6</div><div class="key-sub">MNO</div></div>
+          <div class="keypad-key" data-key="7"><div class="key-digit">7</div><div class="key-sub">PQRS</div></div>
+          <div class="keypad-key" data-key="8"><div class="key-digit">8</div><div class="key-sub">TUV</div></div>
+          <div class="keypad-key" data-key="9"><div class="key-digit">9</div><div class="key-sub">WXYZ</div></div>
+          <div class="keypad-key" data-key="*"><div class="key-digit">*</div><div class="key-sub">Language</div></div>
+          <div class="keypad-key" data-key="0"><div class="key-digit">0</div><div class="key-sub">Menu</div></div>
+          <div class="keypad-key" data-key="#"><div class="key-digit">#</div><div class="key-sub">Officer</div></div>
+        </div>
+
+        <div class="phone-call-actions">
+          <button id="phone-btn-call" class="btn-phone-action btn-phone-call">📞 Call</button>
+          <button id="phone-btn-hangup" class="btn-phone-action btn-phone-hangup">🛑 End</button>
+        </div>
+
+        <button id="btn-close-ivr" class="btn-close-ivr">✕ Close</button>
+      </div>
+    </div>
+
+    <!-- SETTINGS MODAL (TOP RIGHT GEAR) -->
+    <div id="settings-modal" class="settings-modal hidden" role="dialog" aria-modal="true" aria-labelledby="settings-title-label">
+      <div class="settings-modal-card">
+        <div class="settings-modal-header">
+          <div class="settings-header-title">
+            <span style="font-size: 22px;">⚙️</span>
+            <h3 id="settings-title-label">ਸੈਟਿੰਗਾਂ (Settings)</h3>
+          </div>
+          <button id="btn-close-settings" class="btn-settings-close" aria-label="Close Settings" title="ਬੰਦ ਕਰੋ (Close)">✕</button>
+        </div>
+
+        <div class="settings-modal-body">
+          <!-- 1. DARK MODE / LIGHT MODE -->
+          <div class="settings-section">
+            <label class="settings-label" id="setting-theme-label">
+              🌓 <span>ਡਿਸਪਲੇ ਮੋਡ (Theme / Mode)</span>
+            </label>
+            <div class="theme-switch-group">
+              <button id="theme-btn-light" class="theme-btn active" data-theme="light">
+                <span>☀️</span> <span id="theme-light-text">ਲਾਈਟ ਮੋਡ (Light)</span>
+              </button>
+              <button id="theme-btn-dark" class="theme-btn" data-theme="dark">
+                <span>🌙</span> <span id="theme-dark-text">ਡਾਰਕ ਮੋਡ (Dark)</span>
+              </button>
+            </div>
+            <p class="settings-hint-text" id="theme-hint-text">
+              ਖੇਤ ਵਿੱਚ ਰਾਤ ਵੇਲੇ ਵਰਤਣ ਲਈ ਡਾਰਕ ਮੋਡ ਚੁਣੋ (Eye-friendly at night)
+            </p>
+          </div>
+
+          <!-- 2. LANGUAGE SELECTION -->
+          <div class="settings-section">
+            <label class="settings-label" id="setting-lang-label">
+              🌐 <span>ਭਾਸ਼ਾ ਚੋਣ (Language)</span>
+            </label>
+            <div class="settings-lang-group">
+              <button class="settings-lang-btn active" data-lang="pa">
+                🌾 ਪੰਜਾਬੀ
+              </button>
+              <button class="settings-lang-btn" data-lang="hi">
+                🇮🇳 हिंदी
+              </button>
+              <button class="settings-lang-btn" data-lang="hinglish">
+                💬 Hinglish
+              </button>
+            </div>
+            <p class="settings-hint-text" id="lang-hint-text">
+              ਸਾਰੀ ਜਾਣਕਾਰੀ ਅਤੇ ਆਵਾਜ਼ ਚੁਣੀ ਗਈ ਭਾਸ਼ਾ ਵਿੱਚ ਬਦਲ ਜਾਵੇਗੀ।
+            </p>
+          </div>
+
+          <!-- 3. CURRENT USER & LOGOUT -->
+          <div class="settings-section settings-account-section">
+            <label class="settings-label" id="setting-account-label">
+              👤 <span>ਕਿਸਾਨ ਪ੍ਰੋਫਾਈਲ (Account)</span>
+            </label>
+            <div class="user-profile-badge">
+              <div class="user-avatar-circle">🌾</div>
+              <div class="user-profile-info">
+                <strong id="settings-user-name">ਕਿਸਾਨ ਵੀਰ</strong>
+                <span id="settings-user-phone">ਮਹਿਮਾਨ ਮੋਡ (Guest Session)</span>
+              </div>
+            </div>
+
+            <button id="btn-settings-logout" class="btn-settings-logout">
+              <span>🚪</span> <span id="logout-btn-text">ਲੌਗ ਆਉਟ ਕਰੋ (Logout)</span>
+            </button>
+            <p class="settings-hint-text" id="logout-hint-text">
+              ਲੌਗ ਆਉਟ ਕਰਨ ਨਾਲ ਤੁਸੀਂ ਨਵੇਂ ਨਾਮ ਜਾਂ ਮੋਬਾਈਲ ਨੰਬਰ ਨਾਲ ਦੁਬਾਰਾ ਦਾਖਲ ਹੋ ਸਕਦੇ ਹੋ।
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DATASET INSPECTOR MODAL -->
+    <div id="dataset-modal" class="dataset-modal hidden">
+      <div class="dataset-modal-card">
+        <div class="dataset-modal-header">
+          <h3>🔍 Verified Datasets (Zero Hallucination Grounding)</h3>
+          <button id="btn-close-dataset-modal" style="background: none; border: none; color: white; font-size: 20px; cursor: pointer;">✕</button>
+        </div>
+        <div class="dataset-modal-body">
+          <div class="dataset-select-bar">
+            <label style="font-size: 12px; font-weight: 700; color: var(--midnight-blue);">Dataset:</label>
+            <select id="dataset-inspect-select" class="toolkit-select" style="flex: 1;">
+              <option value="prices">📊 Mandi Prices (Vegetables, Fruits, Grains)</option>
+              <option value="weather">🌦️ Weather Station & Spray Advisory</option>
+              <option value="crop_calendar">📅 PAU Crop Calendar & Sowing</option>
+              <option value="crop_symptoms">🔬 Crop Symptoms & Protection</option>
+              <option value="produce_quality">⭐ Produce Quality & AGMARK Standards</option>
+              <option value="nearby_mandis">📍 Nearby Amritsar Mandis Directory</option>
+              <option value="schemes">📜 Government Schemes & Subsidies</option>
+              <option value="crop_advice">🌾 General PAU Crop Advice</option>
+            </select>
+          </div>
+
+          <div class="dataset-inspect-meta" id="dataset-inspect-meta">
+            Mandi Prices • Source: Punjab Mandi Board (e-NAM)
+          </div>
+
+          <div id="dataset-code-view" class="dataset-code-viewport"></div>
+
+          <div style="border-top: 1px solid var(--sky-border); padding-top: 8px;">
+            <label style="font-size: 11px; font-weight: 700; color: var(--text-muted); display: block; margin-bottom: 4px;">
+              📁 Load Structured JSON Dataset (Prototype Extension):
+            </label>
+            <input type="file" id="dataset-upload-input" accept=".json" style="font-size: 12px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="app-footer">
+      <div id="footer-brand" style="font-weight: 700; color: var(--midnight-blue); margin-bottom: 4px;">
+        🌾 ਕਿਸਾਨ ਬਾਣੀ (Kisan Vaani) • Zero Hallucination Guarantee
+      </div>
+      <div id="footer-credits">
+        ਪੰਜਾਬ ਰਾਜ ਮੰਡੀ ਬੋਰਡ, IMD ਐਗਰੋਮੈਟ ਅਤੇ PAU KVK ਅੰਮ੍ਰਿਤਸਰ ਪ੍ਰਮਾਣਿਤ
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="./static/js/dataset.js"></script>
+  <script src="./static/js/api_client.js"></script>
+  <script src="./static/js/speech_pipeline.js"></script>
+  <script src="./static/js/coverflow.js"></script>
+  <script src="./static/js/growth_explorer.js"></script>
+  <script src="./static/js/farm_toolkit.js"></script>
+  <script src="./static/js/ivr_simulator.js"></script>
+  <script src="./static/js/app.js"></script>
+</body>
+</html>

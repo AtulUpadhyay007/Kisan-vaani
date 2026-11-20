@@ -1,0 +1,175 @@
+{
+  "source_name": "ਪੰਜਾਬ ਖੇਤੀਬਾੜੀ ਯੂਨੀਵਰਸਿਟੀ (PAU ਲੁਧਿਆਣਾ) - ਹਾੜੀ ਅਤੇ ਸਾਉਣੀ ਫ਼ਸਲਾਂ ਦੀ ਕਾਸ਼ਤ",
+  "last_updated": "2026-11-20",
+  "district": "Amritsar",
+  "crops": [
+    {
+      "id": "wheat",
+      "name_pa": "ਕਣਕ (Wheat)",
+      "name_hi": "गेहूं (Wheat)",
+      "name_hinglish": "Gehu / Kanak",
+      "stages": [
+        {
+          "stage_id": "sowing",
+          "stage_name_pa": "ਬਿਜਾਈ (Sowing)",
+          "stage_name_hi": "बुवाई (Sowing)",
+          "stage_name_hinglish": "Sowing (Buwai)",
+          "optimal_window_pa": "25 ਅਕਤੂਬਰ ਤੋਂ 15 ਨਵੰਬਰ (ਪਿਛੇਤੀ ਬਿਜਾਈ 30 ਨਵੰਬਰ ਤੱਕ)",
+          "optimal_window_hi": "25 अक्टूबर से 15 नवंबर (पछेती बुवाई 30 नवंबर तक)",
+          "optimal_window_hinglish": "25 Oct se 15 Nov (late sowing till 30 Nov)",
+          "seed_rate_pa": "40-45 ਕਿਲੋ ਪ੍ਰਤੀ ਏਕੜ (ਸੁਪਰ ਸੀਡਰ ਜਾਂ ਜ਼ੀਰੋ ਟਿਲ ਡਰਿੱਲ)",
+          "seed_rate_hi": "40-45 किग्रा प्रति एकड़",
+          "seed_rate_hinglish": "40-45 kg per acre",
+          "temperature_c": "20°C - 23°C",
+          "operations_pa": "ਬੀਜ ਦੀ ਬੀਜ-ਸੋਧ ਰੈਕਸਿਲ 2 ਗ੍ਰਾਮ ਪ੍ਰਤੀ ਕਿਲੋ ਨਾਲ ਕਰੋ। ਬਿਜਾਈ ਵੇਲੇ 1 ਬੋਰੀ ਡੀ.ਏ.ਪੀ. (DAP) ਪਾਓ।",
+          "operations_hi": "बीज शोधन करें और बुवाई के समय 1 बैग डीएपी प्रति एकड़ डालें।",
+          "operations_hinglish": "Beej treatment karein aur buwai ke time 1 bag DAP dalein."
+        },
+        {
+          "stage_id": "growing",
+          "stage_name_pa": "ਵਿਕਾਸ ਤੇ ਫੁਟਾਰਾ (Vegetative / Tillering)",
+          "stage_name_hi": "बढ़वार और फुटाव (Tillering)",
+          "stage_name_hinglish": "Growing / Tillering",
+          "optimal_window_pa": "ਬਿਜਾਈ ਤੋਂ 20 ਤੋਂ 55 ਦਿਨ",
+          "optimal_window_hi": "बुवाई के 20 से 55 दिन",
+          "optimal_window_hinglish": "20 to 55 days after sowing",
+          "seed_rate_pa": "ਸਿੰਚਾਈ: 21ਵੇਂ ਦਿਨ ਪਹਿਲਾ ਕੋਰ ਪਾਣੀ (CRI Stage)",
+          "seed_rate_hi": "सिंचाई: 21वें दिन पहला पानी (CRI स्टेज)",
+          "seed_rate_hinglish": "First irrigation at 21 days (CRI stage)",
+          "temperature_c": "15°C - 20°C",
+          "operations_pa": "ਪਹਿਲੇ ਪਾਣੀ ਨਾਲ 45 ਕਿਲੋ ਯੂਰੀਆ ਪਾਓ। ਗੁੱਲੀ ਡੰਡੇ ਦੀ ਰੋਕਥਾਮ ਲਈ ਨਦੀਨਨਾਸ਼ਕ ਛਿੜਕੋ।",
+          "operations_hi": "पहले पानी के साथ 45 किग्रा यूरिया डालें। खरपतवार नियंत्रण करें।",
+          "operations_hinglish": "Pehle pani ke sath 45 kg urea dalein aur weed control karein."
+        },
+        {
+          "stage_id": "harvest",
+          "stage_name_pa": "ਪੱਕਣ ਤੇ ਕਟਾਈ (Harvesting)",
+          "stage_name_hi": "पकने और कटाई (Harvesting)",
+          "stage_name_hinglish": "Harvesting",
+          "optimal_window_pa": "10 ਅਪ੍ਰੈਲ ਤੋਂ 30 ਅਪ੍ਰੈਲ",
+          "optimal_window_hi": "10 अप्रैल से 30 अप्रैल",
+          "optimal_window_hinglish": "10 April to 30 April",
+          "seed_rate_pa": "ਦਾਣਿਆਂ ਵਿੱਚ ਨਮੀ 12% ਤੋਂ ਘੱਟ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ",
+          "seed_rate_hi": "दानों में नमी 12% से कम होनी चाहिए",
+          "seed_rate_hinglish": "Grain moisture must be below 12%",
+          "temperature_c": "28°C - 35°C",
+          "operations_pa": "ਕੰਬਾਈਨ ਨਾਲ ਕਟਾਈ ਧੁੱਪ ਖਿੜਨ ਤੋਂ ਬਾਅਦ ਦੁਪਹਿਰ ਸਮੇਂ ਕਰੋ। ਪਰਾਲੀ ਪ੍ਰਬੰਧਨ ਲਈ ਸੁਪਰ ਐਸ.ਐਮ.ਐਸ. ਵਰਤੋ।",
+          "operations_hi": "दोपहर में धूप में कटाई करें। सुपर एसएमएस का प्रयोग करें।",
+          "operations_hinglish": "Afternoon mein harvest karein aur Super SMS use karein."
+        }
+      ]
+    },
+    {
+      "id": "potato",
+      "name_pa": "ਆਲੂ (Potato)",
+      "name_hi": "आलू (Potato)",
+      "name_hinglish": "Potato (Aalu)",
+      "stages": [
+        {
+          "stage_id": "sowing",
+          "stage_name_pa": "ਬਿਜਾਈ (Planting)",
+          "stage_name_hi": "बुवाई (Planting)",
+          "stage_name_hinglish": "Planting (Buwai)",
+          "optimal_window_pa": "25 ਸਤੰਬਰ ਤੋਂ 15 ਅਕਤੂਬਰ (ਪੁਖਰਾਜ/ਜਯੋਤੀ)",
+          "optimal_window_hi": "25 सितंबर से 15 अक्टूबर",
+          "optimal_window_hinglish": "25 Sept to 15 Oct",
+          "seed_rate_pa": "12-15 ਕਵਿੰਟਲ ਸਾਬਤ ਕੱਟੇ ਬੀਜ ਪ੍ਰਤੀ ਏਕੜ",
+          "seed_rate_hi": "12-15 क्विंटल बीज प्रति एकड़",
+          "seed_rate_hinglish": "12-15 Qtl seed per acre",
+          "temperature_c": "25°C - 30°C",
+          "operations_pa": "ਕੂੜ੍ਹਾਂ ਵਿਚਕਾਰ 60 ਸੈਂਟੀਮੀਟਰ ਅਤੇ ਬੂਟਿਆਂ ਵਿਚਕਾਰ 20 ਸੈਂਟੀਮੀਟਰ ਫਾਸਲਾ ਰੱਖੋ।",
+          "operations_hi": "पंक्तियों के बीच 60 सेमी और पौधों के बीच 20 सेमी की दूरी रखें।",
+          "operations_hinglish": "Row to row 60 cm aur plant to plant 20 cm distance rakhein."
+        },
+        {
+          "stage_id": "growing",
+          "stage_name_pa": "ਵਿਕਾਸ ਤੇ ਮਿੱਟੀ ਚੜ੍ਹਾਉਣਾ (Earthing-up)",
+          "stage_name_hi": "बढ़वार व मिट्टी चढ़ाना (Earthing-up)",
+          "stage_name_hinglish": "Growing / Earthing-up",
+          "optimal_window_pa": "ਬਿਜਾਈ ਤੋਂ 25 ਤੋਂ 30 ਦਿਨ ਬਾਅਦ",
+          "optimal_window_hi": "बुवाई के 25 से 30 दिन बाद",
+          "optimal_window_hinglish": "25-30 days after planting",
+          "seed_rate_pa": "ਹਲਕੀ ਸਿੰਚਾਈ ਹਰ 8-10 ਦਿਨਾਂ ਬਾਅਦ",
+          "seed_rate_hi": "हर 8-10 दिन में हल्की सिंचाई",
+          "seed_rate_hinglish": "Light irrigation every 8-10 days",
+          "temperature_c": "15°C - 20°C",
+          "operations_pa": "ਆਲੂਆਂ 'ਤੇ ਮਿੱਟੀ ਚੜ੍ਹਾਓ ਤਾਂ ਜੋ ਧੁੱਪ ਨਾਲ ਕੰਦ ਹਰੇ ਨਾ ਹੋਣ। ਝੁਲਸਾ ਰੋਗ ਤੋਂ ਬਚਾਅ ਲਈ ਇੰਡੋਫਿਲ ਐਮ-45 ਛਿੜਕੋ।",
+          "operations_hi": "मिट्टी चढ़ाएं ताकि कंद हरे न हों। झुलसा रोग से बचाव के लिए इंडोफिल एम-45 छिड़कें।",
+          "operations_hinglish": "Mitti chadhayein aur late blight se bachav ke liye Indofil M-45 spray karein."
+        },
+        {
+          "stage_id": "harvest",
+          "stage_name_pa": "ਪੁਟਾਈ (Harvesting / Digging)",
+          "stage_name_hi": "खुदाई (Harvesting)",
+          "stage_name_hinglish": "Harvesting / Digging",
+          "optimal_window_pa": "ਪੁਖਰਾਜ: 75-80 ਦਿਨਾਂ 'ਚ (ਦਸੰਬਰ/ਜਨਵਰੀ)",
+          "optimal_window_hi": "75-80 दिनों में (दिसंबर/जनवरी)",
+          "optimal_window_hinglish": "75-80 days (Dec/Jan)",
+          "seed_rate_pa": "ਪੁਟਾਈ ਤੋਂ 10 ਦਿਨ ਪਹਿਲਾਂ ਪਾਣੀ ਬੰਦ ਕਰੋ",
+          "seed_rate_hi": "खुदाई से 10 दिन पहले पानी बंद करें",
+          "seed_rate_hinglish": "Stop irrigation 10 days before digging",
+          "temperature_c": "10°C - 18°C",
+          "operations_pa": "ਆਲੂ ਪੁੱਟ ਕੇ ਛਾਂ ਹੇਠ ਸੁਕਾਓ ਅਤੇ ਗਰੇਡਿੰਗ (ਛਾਂਟੀ) ਕਰਕੇ ਮੰਡੀ ਲਿਜਾਓ।",
+          "operations_hi": "आलू को छाया में सुखाएं और ग्रेडिंग करके मंडी ले जाएं।",
+          "operations_hinglish": "Shade mein sukhayein aur grading karke mandi bhejein."
+        }
+      ]
+    },
+    {
+      "id": "mustard",
+      "name_pa": "ਸਰ੍ਹੋਂ / ਰਾਇਆ (Mustard)",
+      "name_hi": "सरसों / राया (Mustard)",
+      "name_hinglish": "Sarson / Mustard",
+      "stages": [
+        {
+          "stage_id": "sowing",
+          "stage_name_pa": "ਬਿਜਾਈ (Sowing)",
+          "stage_name_hi": "बुवाई (Sowing)",
+          "stage_name_hinglish": "Sowing (Buwai)",
+          "optimal_window_pa": "1 ਅਕਤੂਬਰ ਤੋਂ 20 ਅਕਤੂਬਰ (RLC-3 / ਗਿਰੀਰਾਜ)",
+          "optimal_window_hi": "1 अक्टूबर से 20 अक्टूबर",
+          "optimal_window_hinglish": "1 Oct to 20 Oct",
+          "seed_rate_pa": "1.5 ਤੋਂ 2 ਕਿਲੋ ਪ੍ਰਤੀ ਏਕੜ",
+          "seed_rate_hi": "1.5 से 2 किग्रा प्रति एकड़",
+          "seed_rate_hinglish": "1.5 to 2 kg per acre",
+          "temperature_c": "25°C - 28°C",
+          "operations_pa": "ਲਾਈਨਾਂ ਵਿਚਕਾਰ 45 ਸੈਂਟੀਮੀਟਰ ਫਾਸਲਾ ਰੱਖੋ। ਬਿਜਾਈ ਵੇਲੇ 1 ਬੋਰੀ ਸਿੰਗਲ ਸੁਪਰ ਫਾਸਫੇਟ ਪਾਓ।",
+          "operations_hi": "पंक्तियों के बीच 45 सेमी की दूरी रखें।",
+          "operations_hinglish": "Row distance 45 cm rakhein."
+        },
+        {
+          "stage_id": "growing",
+          "stage_name_pa": "ਵਿਰਲਤਾ ਤੇ ਫੁੱਲ ਨਿਕਲਣਾ (Thinning & Flowering)",
+          "stage_name_hi": "छंटाई व फूल आना (Thinning & Flowering)",
+          "stage_name_hinglish": "Growing / Flowering",
+          "optimal_window_pa": "ਬਿਜਾਈ ਤੋਂ 3 ਤੋਂ 7 ਹਫ਼ਤੇ",
+          "optimal_window_hi": "बुवाई के 3 से 7 सप्ताह",
+          "optimal_window_hinglish": "3 to 7 weeks after sowing",
+          "seed_rate_pa": "ਬੂਟੇ ਤੋਂ ਬੂਟੇ ਦੀ ਦੂਰੀ 10-15 ਸੈਂਟੀਮੀਟਰ ਕਰੋ",
+          "seed_rate_hi": "पौधे से पौधे की दूरी 10-15 सेमी रखें",
+          "seed_rate_hinglish": "Thinning to 10-15 cm between plants",
+          "temperature_c": "15°C - 22°C",
+          "operations_pa": "ਚੇਪਾ (ਤੇਲਾ) ਨਜ਼ਰ ਆਉਣ 'ਤੇ 200 ਮਿ.ਲੀ. ਰੋਗੋਰ ਦਾ ਸਪਰੇਅ ਦੁਪਹਿਰ ਵੇਲੇ ਕਰੋ।",
+          "operations_hi": "माहू या चेपा दिखने पर अनुशंसित कीटनाशक छिड़कें।",
+          "operations_hinglish": "Aphid aane par recommended pesticide spray karein."
+        },
+        {
+          "stage_id": "harvest",
+          "stage_name_pa": "ਕਟਾਈ ਤੇ ਗਹਾਈ (Harvesting)",
+          "stage_name_hi": "कटाई (Harvesting)",
+          "stage_name_hinglish": "Harvesting",
+          "optimal_window_pa": "ਮਾਰਚ ਮਹੀਨੇ ਵਿੱਚ ਜਦੋਂ ਫਲੀਆਂ 75% ਪੀਲੀਆਂ ਹੋ ਜਾਣ",
+          "optimal_window_hi": "मार्च में जब फलियां 75% पीली हो जाएं",
+          "optimal_window_hinglish": "March when 75% pods turn yellow",
+          "seed_rate_pa": "ਸਵੇਰ ਵੇਲੇ ਕਟਾਈ ਕਰੋ ਤਾਂ ਜੋ ਫਲੀਆਂ ਨਾ ਛਿਟਕਣ",
+          "seed_rate_hi": "सुबह के समय कटाई करें ताकि दाने न झड़ें",
+          "seed_rate_hinglish": "Harvest early morning to prevent shattering",
+          "temperature_c": "22°C - 28°C",
+          "operations_pa": "ਕੱਟ ਕੇ ਪੂਲੇ ਬਣਾਓ ਅਤੇ 4-5 ਦਿਨ ਸੁਕਾ ਕੇ ਥਰੈਸ਼ਰ ਨਾਲ ਗਹਾਈ ਕਰੋ।",
+          "operations_hi": "धूप में सुखाकर थ्रेशर से गहाई करें।",
+          "operations_hinglish": "Sun dry for 4-5 days then thresh."
+        }
+      ]
+    }
+  ]
+}
