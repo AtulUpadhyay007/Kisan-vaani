@@ -145,3 +145,6 @@ All **15 automated tests** pass in **0.023s**, verifying:
 - **Agromet IMD & Krishi Vigyan Kendra (KVK) Amritsar**: Weather observations & spray advisories
 - **Punjab Agricultural University (PAU Ludhiana)**: Crop cultivation guidelines & plant protection handbooks
 - **Directorate of Marketing & Inspection (AGMARK)**: Agricultural produce grading specifications
+#   K i s a n - v a a n i  
+ #   K i s a n - v a a n i  
+ 
